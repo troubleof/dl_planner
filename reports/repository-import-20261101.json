@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-01 Asia/Shanghai",
+  "purpose": "Import the retained research core into troubleof/dl_planner; no new full simulation matrix.",
+  "parent_commit": "f0508b9691edcd223c5c6fe8b386f0c926d2cc5b",
+  "build": {
+    "passed": true,
+    "environment": "Ubuntu 22.04 / ROS2 Humble in WSL2, source compiled in the new repository",
+    "command": "CMAKE_BUILD_PARALLEL_LEVEL=2 bash build_navigation.sh",
+    "warnings": "Existing EGO/ROG deprecated APIs and optional PCL pcap/png I/O warnings; compilation completed."
+  },
+  "core_check": {
+    "passed": true,
+    "command": "python tools/check_core.py --replay",
+    "binary_artifacts_checked": 96,
+    "training_rows": 1027,
+    "base_rows": 827,
+    "label_shape": [1027, 45, 4],
+    "full_and_base_effective_labels_equal_to_original_training": true,
+    "dataset_sha256": "69e13821a914c50f1d8eca0f2566d773769071a228953f33af22972de1a4ea6c",
+    "new_weights_loaded": 11,
+    "complete_retained_cases": 5,
+    "case_files_verified": 815,
+    "cloud_references_verified": 496,
+    "map_updates_replayed": 312,
+    "escape_requests_replayed": 2
+  },
+  "checkout_checks": {
+    "passed": true,
+    "command": "PYTHON=<configured-python> bash tools/check_checkout.sh runs/checkout-import-20261101",
+    "perception_channel_tests": 10,
+    "route_manager_checks": 14,
+    "camera_contract": "passed for EGO and ROG",
+    "backup_contract": "5 checks per backend passed",
+    "training_smoke": [
+      {"kind": "mlp", "seed": 11, "epochs": 1, "base_only": false, "passed": true},
+      {"kind": "spatial", "seed": 11, "epochs": 1, "base_only": true, "passed": true}
+    ]
+  },
+  "retention": "Source/configuration/reports, trained weights, one necessary dataset and five complete representative cases. Build outputs, temporary checkout logs, full source/evidence archives and the optional original YOPO pretrained binary are not uploaded.",
+  "limits": "Checks establish repository portability and retained-data integrity. They are not new safety/performance claims, not a rerun of all old experiments, and not a D435i/PX4 hardware validation."
+}

@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "weight": "long_s11.pt",
+      "artifact": "long_s11.torchscript",
+      "sha256": "9b6b7e18f35e9652b4a8a007c5d53065ff8115985b913a3659585640af684827",
+      "observations": 73,
+      "max_error": 0.0,
+      "trainable_scorer_parameters": 27238,
+      "frozen_generator_parameters": 113502,
+      "total_parameters": 140740
+    },
+    {
+      "weight": "long_s22.pt",
+      "artifact": "long_s22.torchscript",
+      "sha256": "b0eb26f588ce69e968342f7c0cedafa5c324d12a912822b1eb0fb58e72e8ce67",
+      "observations": 73,
+      "max_error": 0.0,
+      "trainable_scorer_parameters": 27238,
+      "frozen_generator_parameters": 113502,
+      "total_parameters": 140740
+    },
+    {
+      "weight": "long_s33.pt",
+      "artifact": "long_s33.torchscript",
+      "sha256": "7f16e1d1f1778d73db733f9677aad6ec7d21302b4be0b950db7e949ea9671b40",
+      "observations": 73,
+      "max_error": 0.0,
+      "trainable_scorer_parameters": 27238,
+      "frozen_generator_parameters": 113502,
+      "total_parameters": 140740
+    },
+    {
+      "weight": "short_s11.pt",
+      "artifact": "short_s11.torchscript",
+      "sha256": "c5b59b387f49c86b9a796e70a796dcbe5eac9a44a85d2567c14dc49d0e3c3990",
+      "observations": 73,
+      "max_error": 0.0,
+      "trainable_scorer_parameters": 27238,
+      "frozen_generator_parameters": 113502,
+      "total_parameters": 140740
+    }
+  ],
+  "scope": "Scorer export only; the two unchanged candidate generators and input/decoder are also required."
+}

@@ -1,0 +1,78 @@
+{
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "cpu": "\t: AMD Ryzen 9 7945HX with Radeon Graphics",
+  "torch": "2.4.1+cpu",
+  "threads": 1,
+  "repeats": 500,
+  "models": [
+    {
+      "variant": "short_scan",
+      "eager": {
+        "features_and_seeds_ms": {
+          "p50": 0.5951900000127353,
+          "p95": 0.693722600158253,
+          "p99": 0.7308309900645327,
+          "maximum": 0.7854450000195357
+        },
+        "inference_or_rule_score_ms": {
+          "p50": 1.5866829999140464,
+          "p95": 1.677628399988862,
+          "p99": 1.7885692801883124,
+          "maximum": 2.3368779998236278
+        },
+        "decode_ms": {
+          "p50": 0.5699584999092622,
+          "p95": 0.6131783501587051,
+          "p99": 0.6417617102761142,
+          "maximum": 0.72007200014923
+        },
+        "compute_ms": {
+          "p50": 2.7680539999437315,
+          "p95": 2.889180800207214,
+          "p99": 2.997695790186299,
+          "maximum": 3.7508929999603424
+        }
+      },
+      "parameters": 0
+    },
+    {
+      "variant": "learn11",
+      "eager": {
+        "features_and_seeds_ms": {
+          "p50": 0.6180974996823352,
+          "p95": 0.7896072999756142,
+          "p99": 0.8688297898925156,
+          "maximum": 1.1933490000046731
+        },
+        "inference_or_rule_score_ms": {
+          "p50": 0.3935185000045749,
+          "p95": 0.4815958500330452,
+          "p99": 0.5462626901271503,
+          "maximum": 0.7319500000448897
+        },
+        "decode_ms": {
+          "p50": 0.6106725002155144,
+          "p95": 0.7711596496619676,
+          "p99": 0.8975044500084549,
+          "maximum": 1.1891799999830255
+        },
+        "compute_ms": {
+          "p50": 1.6474629999265744,
+          "p95": 1.889014700327607,
+          "p99": 2.0868383199740492,
+          "maximum": 2.3138330002439034
+        }
+      },
+      "parameters": 55261,
+      "torchscript_ms": {
+        "p50": 0.2467285000875563,
+        "p95": 0.4017005498781143,
+        "p99": 0.5208540200828793,
+        "maximum": 0.7359819996963779
+      },
+      "export_max_error": 0.0,
+      "export_sha256": "b6b42a234d15bf706b49fcb4805e53f0ad4d627a7798d0403b4f746e25dbb6e6"
+    }
+  ],
+  "scope": "Warm feature+seed+network+decode only. Fused-map guidance, map updates, full validator, RPC/evidence I/O are separately charged in closed loop. No camera/USB/VIO/flight-controller time or onboard WCET claim."
+}

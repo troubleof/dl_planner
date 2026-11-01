@@ -1,0 +1,21 @@
+# Local execution and generated data. Only curated datasets/examples are tracked.
+/build/
+/install/
+/log/
+/runs/
+/outputs/
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.log
+*.bag
+*.db3
+*.mcap
+source.tar.gz
+evidence.tar.gz
+*.zip
+/third_party/yopo/YOPO/saved/

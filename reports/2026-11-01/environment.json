@@ -1,0 +1,22 @@
+{
+  "experiment_date": "2026-10-31 Asia/Shanghai",
+  "completion_date": "2026-11-01 Asia/Shanghai",
+  "source_root": "/home/chaonian/d435i-recovery-20261031/single-uav-pointcloud-nav",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "numpy": "1.21.5",
+  "scipy": "1.8.0",
+  "torch": "2.4.1+cpu",
+  "cpu": "AMD Ryzen 9 7945HX with Radeon Graphics",
+  "os_release": "Ubuntu 22.04.5 LTS",
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "cmake": "cmake version 3.22.1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+  "worker_binary_sha256": "8eb56b8e22a84937e20e1f25541e7462aba49f64ef3f1c1af7663d4b6efd8b16",
+  "ros": "Humble",
+  "env": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "device": "CPU only; no actual D435i/PX4 connection in this experiment",
+  "timing": "Measured RPC including evidence I/O; 80 ms synthetic planning delay; 0.30 s handoff; 25 ms commit guard; 100 ms normal cooperative plan budget; no real-time OS or WCET proof"
+}

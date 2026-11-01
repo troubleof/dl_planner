@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "seed": 11,
+      "artifact": "direct_s11.torchscript",
+      "sha256": "14498696a7c60fee51727be0125b7f7e8341cc63aed9cfca8e2bca4ef4e26540",
+      "observations": 471,
+      "max_export_error": 0.0,
+      "max_start_pva_error": {
+        "p": 2.7013694133775644e-15,
+        "v": 3.6464389724788916e-15,
+        "a": 1.1862288305032263e-13
+      },
+      "max_torch_numpy_decoder_error": 4.916018156997382e-07,
+      "parameters": 67371
+    },
+    {
+      "seed": 22,
+      "artifact": "direct_s22.torchscript",
+      "sha256": "579dac7ddb905000bfa7c79beb7c38c58732330827c535bb98157f1d7eae54b6",
+      "observations": 471,
+      "max_export_error": 0.0,
+      "max_start_pva_error": {
+        "p": 2.7013248538983232e-15,
+        "v": 3.7577224783651514e-15,
+        "a": 7.756677516612425e-14
+      },
+      "max_torch_numpy_decoder_error": 5.526742792305583e-07,
+      "parameters": 67371
+    },
+    {
+      "seed": 33,
+      "artifact": "direct_s33.torchscript",
+      "sha256": "1bab2b2664b0e6ee1c3789ca63c72aaf69201f092b060a5dee9141113de7fcc0",
+      "observations": 471,
+      "max_export_error": 0.0,
+      "max_start_pva_error": {
+        "p": 2.7012892057857038e-15,
+        "v": 3.4839499853500382e-15,
+        "a": 6.646474447747436e-14
+      },
+      "max_torch_numpy_decoder_error": 4.8133999497324e-07,
+      "parameters": 67371
+    }
+  ],
+  "interface": "TorchScript predicts timed parameters and scores; exact-PVA decoder and original validator/stop pipeline remain necessary"
+}

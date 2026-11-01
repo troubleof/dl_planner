@@ -1,0 +1,357 @@
+{
+  "recovery-test-v1": {
+    "cases": 152,
+    "model_outputs_recomputed": 5898,
+    "escape_commits_checked": 11,
+    "minimum_escape_commit_slack_s": 0.004999999999999005,
+    "maximum_handoff_jump": {
+      "p": 2.7035697373913694e-15,
+      "v": 6.599026329745262e-15,
+      "a": 2.503348279470588e-13
+    },
+    "executed_map_invalid_samples": 0,
+    "limits": "10 ms executed centre samples, original 5 ms curve validation plus inflated occupancy; not a swept-volume or hardware control proof.",
+    "invalid_cases": []
+  },
+  "recovery-repeat-v1": {
+    "cases": 40,
+    "model_outputs_recomputed": 1772,
+    "escape_commits_checked": 1,
+    "minimum_escape_commit_slack_s": 0.004999999999999005,
+    "maximum_handoff_jump": {
+      "p": 1.9984014443252818e-15,
+      "v": 6.599026329745262e-15,
+      "a": 2.503348279470588e-13
+    },
+    "executed_map_invalid_samples": 0,
+    "limits": "10 ms executed centre samples, original 5 ms curve validation plus inflated occupancy; not a swept-volume or hardware control proof.",
+    "invalid_cases": []
+  },
+  "recovery-stress-late650-v1": {
+    "cases": 10,
+    "model_outputs_recomputed": 312,
+    "escape_commits_checked": 0,
+    "minimum_escape_commit_slack_s": null,
+    "maximum_handoff_jump": {
+      "p": 1.9984014443252818e-15,
+      "v": 5.140070297733123e-15,
+      "a": 2.1289048283632362e-13
+    },
+    "executed_map_invalid_samples": 0,
+    "limits": "10 ms executed centre samples, original 5 ms curve validation plus inflated occupancy; not a swept-volume or hardware control proof.",
+    "invalid_cases": []
+  },
+  "recovery-stress-budget25-v1": {
+    "cases": 10,
+    "model_outputs_recomputed": 953,
+    "escape_commits_checked": 0,
+    "minimum_escape_commit_slack_s": null,
+    "maximum_handoff_jump": {
+      "p": 1.9984014443252818e-15,
+      "v": 5.104237526856933e-15,
+      "a": 1.6314902586637179e-13
+    },
+    "executed_map_invalid_samples": 0,
+    "limits": "10 ms executed centre samples, original 5 ms curve validation plus inflated occupancy; not a swept-volume or hardware control proof.",
+    "invalid_cases": []
+  },
+  "recovery-stress-holes30-v1": {
+    "cases": 10,
+    "model_outputs_recomputed": 279,
+    "escape_commits_checked": 0,
+    "minimum_escape_commit_slack_s": null,
+    "maximum_handoff_jump": {
+      "p": 1.9860273225978185e-15,
+      "v": 6.09910573862894e-15,
+      "a": 2.418644376795113e-13
+    },
+    "executed_map_invalid_samples": 0,
+    "limits": "10 ms executed centre samples, original 5 ms curve validation plus inflated occupancy; not a swept-volume or hardware control proof.",
+    "invalid_cases": []
+  },
+  "recovery-stress-range3-v1": {
+    "cases": 10,
+    "model_outputs_recomputed": 351,
+    "escape_commits_checked": 0,
+    "minimum_escape_commit_slack_s": null,
+    "maximum_handoff_jump": {
+      "p": 1.831026719408895e-15,
+      "v": 2.762554088605753e-15,
+      "a": 7.728889532232057e-14
+    },
+    "executed_map_invalid_samples": 20,
+    "limits": "10 ms executed centre samples, original 5 ms curve validation plus inflated occupancy; not a swept-volume or hardware control proof.",
+    "invalid_cases": [
+      {
+        "case": "forest_5402_rog_temporal11_stress",
+        "outcome": "no_validated_escape",
+        "samples": [
+          {
+            "t": 1.0,
+            "p": [
+              -6.999999999999998,
+              0.0,
+              2.4999999999999996
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.01,
+            "p": [
+              -6.999999999999999,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.02,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5000000000000004
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.03,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "case": "forest_5402_rog_mlp11_stress",
+        "outcome": "no_validated_escape",
+        "samples": [
+          {
+            "t": 1.0,
+            "p": [
+              -6.999999999999998,
+              0.0,
+              2.4999999999999996
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.01,
+            "p": [
+              -6.999999999999999,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.02,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5000000000000004
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.03,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "case": "forest_5402_rog_repair_recover_stress",
+        "outcome": "no_validated_escape",
+        "samples": [
+          {
+            "t": 1.0,
+            "p": [
+              -6.999999999999998,
+              0.0,
+              2.4999999999999996
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.01,
+            "p": [
+              -6.999999999999999,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.02,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5000000000000004
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.03,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "case": "forest_5402_rog_short_recover_stress",
+        "outcome": "no_validated_escape",
+        "samples": [
+          {
+            "t": 1.0,
+            "p": [
+              -6.999999999999998,
+              0.0,
+              2.4999999999999996
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.01,
+            "p": [
+              -6.999999999999999,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.02,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5000000000000004
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.03,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "case": "forest_5402_rog_spatial11_stress",
+        "outcome": "no_validated_escape",
+        "samples": [
+          {
+            "t": 1.0,
+            "p": [
+              -6.999999999999998,
+              0.0,
+              2.4999999999999996
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.01,
+            "p": [
+              -6.999999999999999,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.02,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5000000000000004
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          },
+          {
+            "t": 1.03,
+            "p": [
+              -7.000000000000001,
+              0.0,
+              2.5
+            ],
+            "cell": [
+              2,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

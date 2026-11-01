@@ -1,0 +1,56 @@
+查阅日期：2026-10-31；2026-11-01 复核 PILOT、Anticipatory Risk-Guided RL 和 gatekeeper 原文链接。以下区分已有方法、当前实现和待验证假设；不把组合模块自动称为论文创新。
+
+1. YOPO: You Only Plan Once: A Learning-based One-stage Planner with Guidance Learning
+作者原文 https://tju-air-lab.github.io/projects/YOPO/YOPO.pdf
+官方代码 https://github.com/TJU-Aerial-Robotics/YOPO
+借鉴空间候选和轻量网络。当前工程并非完整复现 YOPO：沿用已有可见空间端点与精确 PVA 样条解码。本轮学习候选/时长选择和未来退路风险，不宣称学习自由形状轨迹。
+
+2. FASTER: Fast and Safe Trajectory Planner for Flights in Unknown Environments (IROS 2019)
+https://arxiv.org/abs/1903.03558
+已有未知环境探索与已知自由区域备份轨迹思想。不能将“保留停车轨迹”本身作为创新。工程仍要求硬验证通过，不引入盲飞未知区域。
+
+3. Safety-assured High-speed Navigation for MAVs (SUPER, Science Robotics 2025)
+https://github.com/hku-mars/SUPER
+https://www.science.org/doi/10.1126/scirobotics.ado6187
+已有高性能导航和安全备份设计。当前有限族停车重算不是完整 SUPER 备份优化器，也没有其全部理论与硬件条件。
+
+4. gatekeeper: Online Safety Verification and Control for Nonlinear Systems in Dynamic Environments (T-RO 2024)
+作者原文 https://dev10110.github.io/pdfs/2024-gatekeeper-tro.pdf
+关键区别：Assumption 1 的 13a/13b 要求感知安全集合保守，且后续信息不能推翻先前对同一未来时刻的保守安全判定。本工程存在新占据的膨胀范围侵入旧自由质心路径，不能直接套用其全时安全结论。重新验证并提前停车只修复有足够时间且存在有效有限族停止轨迹的情形。
+
+5. Recovery RL: Safe Reinforcement Learning with Learned Recovery Zones (RA-L/ICRA 2021)
+https://arxiv.org/abs/2010.15920
+借鉴任务进展和恢复风险的分离。当前是监督学习风险排序，不是该文双策略 RL 的复现；没有完整交互价值函数或无限时域恢复保证。
+
+6. A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning (DAgger, AISTATS 2011)
+https://proceedings.mlr.press/v15/ross11a.html
+说明部署策略改变状态分布，静态专家数据不能自动覆盖闭环。本轮增加原规则、原模型自身状态与候选分支数据，但不声称已经满足 DAgger 的专家和理论条件。
+
+7. Learning High-Speed Flight in the Wild (Science Robotics 2021)
+https://arxiv.org/abs/2110.05113
+已有深度输入直接生成轨迹、仿真特权专家训练和实机部署路线。仅“CNN 直接输出轨迹、仿真训练”不构成新意。
+
+8. PILOT: Privileged Imitation Learning for End-to-End Motion Planning of Autonomous UAVs under Partial Observability (2026-08 预印本)
+https://arxiv.org/abs/2608.14082
+作者摘要提出 TCN 融合历史深度与里程计，并使用结构化轨迹参数化和约束正则。与“加时序网络和轨迹约束”高度相关，因此本轮不能将双帧编码器本身当成新颖贡献。摘要报告仿真与部署，本文未独立复现其性能。
+
+9. Anticipatory Risk-Guided Reinforcement Learning for Safe Flight Through Dynamic Clutter (IROS 2026，按作者页面)
+https://arxiv.org/abs/2607.23565
+作者使用特权模拟器构造基于最近接近点的未来碰撞风险，并用时空深度编码和非对称 actor-critic 学习。未来风险预测、速度方向感知和深度序列已有先例。本轮针对静态几何中的地图修订和已承诺停车分支有效性，区别需要进一步实验与全文查新论证。
+
+10. Adaptive Risk-Tendency: Nano Drone Navigation in Cluttered Environments with Distributional Reinforcement Learning (2022)
+https://arxiv.org/abs/2203.14749
+已有依据回报分布调整风险偏好的方法。风险权重或分布预测本身不能自动视作创新。
+
+本轮实现的三种可比较结构
+A. MLP：自机/时间/相机相对位姿状态 + 候选几何和未知邻域特征，输出当前可行性与三个条件生存概率。
+B. 单帧 CNN：增加当前距离图编码，共用同样候选、损失、输出和监督器。
+C. 双帧 CNN：共享编码器，按相对位姿与时间状态对两帧潜变量差分进行门控，共用候选生存头。它不是精确几何重投影，也不是完整长时记忆。
+概率通过条件概率连乘得到累计生存估计。标签为原执行前缀→候选→停车这一整段计划在随后融合地图中是否仍有效；0.2/0.4/0.8 s 多时域，缺失后续观测作删失，不补成安全。
+固定候选为原 15 个可见空间端点各配三种固定时长，网络对 45 个候选打分，去重后最多 15 个送入原硬验证器。比较必须包含同候选库规则，避免将候选扩容收益误算为网络收益。
+
+更值得进一步论证的贡献候选
+H1：以“新观测推翻已提交退路的时间/概率”监督，比仅当前碰撞/距离评分更能改善闭环失效率。
+H2：同状态、候选自身视角的未来相机分支标签，比沿原策略观测回放标签更能避免反事实错配。
+H3：将实际计算时间、有效前缀与可提交停车时限纳入训练/执行联合评价，在小网络预算内实现更可靠接续。
+这些目前是研究假设。需要多地图、多训练种子、监督器/候选库/数据/时序信息消融及实机误差验证后，才能判断是否有稳定收益与足够新颖性。

@@ -1,0 +1,2042 @@
+{
+  "recovery-collect-v1": {
+    "cases": 24,
+    "groups": {
+      "old_recover": {
+        "cases": 12,
+        "reached": 11,
+        "outcomes": {
+          "reached": 11,
+          "timeout": 1
+        },
+        "penalized_time_s": 16.975,
+        "arrival_time_s": 15.336363636363638,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 14.515224000206217,
+          "p95": 19.91175029970689,
+          "p99": 45.81984643969917,
+          "max": 47.277977000703686
+        },
+        "inference_ms": {
+          "p50": 0.6593140005861642,
+          "p95": 0.7956473998092406,
+          "p99": 0.9689067799627065,
+          "max": 11.456010000074457
+        },
+        "frontend_ms": {
+          "p50": 5.488812999828951,
+          "p95": 6.743694699889601,
+          "p99": 7.986404479725022,
+          "max": 17.315583999334194
+        },
+        "map_update_ms": {
+          "p50": 8.766534499999999,
+          "p95": 27.6042777,
+          "p99": 29.081059179999993,
+          "max": 35.351666
+        },
+        "escape_rpc_ms": {
+          "p50": 2.020391999394633,
+          "p95": 2.020391999394633,
+          "p99": 2.020391999394633,
+          "max": 2.020391999394633
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999893,
+        "compute_budget_rejections": 0
+      },
+      "short_recover": {
+        "cases": 12,
+        "reached": 12,
+        "outcomes": {
+          "reached": 12
+        },
+        "penalized_time_s": 15.87,
+        "arrival_time_s": 15.87,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 15.825276499981555,
+          "p95": 19.446845749826025,
+          "p99": 42.023618369703506,
+          "max": 47.01340900010109
+        },
+        "inference_ms": {
+          "p50": 1.6028760001063347,
+          "p95": 1.8827730999419146,
+          "p99": 2.0068903500305173,
+          "max": 2.3656989997107303
+        },
+        "frontend_ms": {
+          "p50": 6.415112499780662,
+          "p95": 7.578876899879106,
+          "p99": 8.366501760074245,
+          "max": 9.676912999566412
+        },
+        "map_update_ms": {
+          "p50": 7.7921375,
+          "p95": 23.6426385,
+          "p99": 24.98483905,
+          "max": 26.921244
+        },
+        "escape_rpc_ms": {
+          "p50": 3.088921000198752,
+          "p95": 3.088921000198752,
+          "p99": 3.088921000198752,
+          "max": 3.088921000198752
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 0
+      }
+    }
+  },
+  "recovery-model-pilot-v1": {
+    "cases": 8,
+    "groups": {
+      "bankrule": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 13.645,
+        "arrival_time_s": 13.645,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 33.655855999995765,
+          "p95": 57.12339019999034,
+          "p99": 61.17739672002244,
+          "max": 62.84545699998034
+        },
+        "inference_ms": {
+          "p50": 0.022344999990764336,
+          "p95": 0.026043400043818103,
+          "p99": 0.03522635997114776,
+          "max": 0.03535700000156794
+        },
+        "frontend_ms": {
+          "p50": 24.36275999997406,
+          "p95": 26.2399721999941,
+          "p99": 27.141585360036515,
+          "max": 27.287283000021034
+        },
+        "map_update_ms": {
+          "p50": 8.092542,
+          "p95": 21.849156199999996,
+          "p99": 23.50023124,
+          "max": 23.785669
+        },
+        "escape_rpc_ms": {
+          "p50": 1.3369750000151726,
+          "p95": 1.3369750000151726,
+          "p99": 1.3369750000151726,
+          "max": 1.3369750000151726
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 0
+      },
+      "mlp11": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 13.905000000000001,
+        "arrival_time_s": 13.905000000000001,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 33.443803000011485,
+          "p95": 38.911332500026674,
+          "p99": 44.30352443996061,
+          "max": 58.11048300000721
+        },
+        "inference_ms": {
+          "p50": 0.2937520000045879,
+          "p95": 0.35114229999919644,
+          "p99": 0.3915786000101206,
+          "max": 0.40216200000031677
+        },
+        "frontend_ms": {
+          "p50": 24.495242000000417,
+          "p95": 26.42823624999835,
+          "p99": 28.256481100026992,
+          "max": 33.50673099998858
+        },
+        "map_update_ms": {
+          "p50": 7.593541,
+          "p95": 22.4418591,
+          "p99": 23.711753000000005,
+          "max": 24.189275
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatial11": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 14.08,
+        "arrival_time_s": 14.08,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 32.817857999987154,
+          "p95": 36.348622300027955,
+          "p99": 60.2194884400069,
+          "max": 61.28142899996192
+        },
+        "inference_ms": {
+          "p50": 0.5673169999909078,
+          "p95": 0.6695565000086389,
+          "p99": 0.8386817800021658,
+          "max": 2.5150430000167034
+        },
+        "frontend_ms": {
+          "p50": 23.963300000048093,
+          "p95": 25.79166139997824,
+          "p99": 26.396097720022453,
+          "max": 27.00964699999986
+        },
+        "map_update_ms": {
+          "p50": 7.236484,
+          "p95": 22.670957,
+          "p99": 24.1539178,
+          "max": 25.19022
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "temporal11": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 13.68,
+        "arrival_time_s": 13.68,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 34.02814200001103,
+          "p95": 53.797365000002614,
+          "p99": 63.83299271998794,
+          "max": 63.85701300001756
+        },
+        "inference_ms": {
+          "p50": 0.772046000008686,
+          "p95": 0.845057000003635,
+          "p99": 0.8769449200144662,
+          "max": 0.9173089999876538
+        },
+        "frontend_ms": {
+          "p50": 24.98299399996995,
+          "p95": 26.421547199981887,
+          "p99": 27.61600312001518,
+          "max": 34.442738000052486
+        },
+        "map_update_ms": {
+          "p50": 7.5641715000000005,
+          "p95": 22.653588199999998,
+          "p99": 23.676671449999997,
+          "max": 23.768711
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      }
+    }
+  },
+  "recovery-pilot-v1": {
+    "cases": 6,
+    "groups": {
+      "short_recover": {
+        "cases": 6,
+        "reached": 5,
+        "outcomes": {
+          "reached": 5,
+          "no_validated_escape": 1
+        },
+        "penalized_time_s": 19.216666666666665,
+        "arrival_time_s": 16.06,
+        "escape_searches": 2,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 15.488015000300948,
+          "p95": 18.882484000641853,
+          "p99": 19.583280000006198,
+          "max": 24.531048999961058
+        },
+        "inference_ms": {
+          "p50": 1.6477610006404575,
+          "p95": 1.9553550000637188,
+          "p99": 2.122455000062473,
+          "max": 2.1946930000922293
+        },
+        "frontend_ms": {
+          "p50": 6.4334360004068,
+          "p95": 7.163990000663034,
+          "p99": 7.4577010000211885,
+          "max": 9.330224000223097
+        },
+        "map_update_ms": {
+          "p50": 7.0894245,
+          "p95": 25.02582025,
+          "p99": 26.911846649999994,
+          "max": 29.722285
+        },
+        "escape_rpc_ms": {
+          "p50": 1.1552664996088424,
+          "p95": 1.4116049495441985,
+          "p99": 1.4343905895384523,
+          "max": 1.4400869995370158
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999893,
+        "compute_budget_rejections": 0
+      }
+    }
+  },
+  "recovery-repeat-v1": {
+    "cases": 40,
+    "groups": {
+      "bankrule": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "reached": 7,
+          "timeout": 1
+        },
+        "penalized_time_s": 17.4925,
+        "arrival_time_s": 14.991428571428571,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 32.91762999992898,
+          "p95": 50.332505500136904,
+          "p99": 86.60619575010742,
+          "max": 104.7494760000518
+        },
+        "inference_ms": {
+          "p50": 0.022294000018519,
+          "p95": 0.027913749875096983,
+          "p99": 0.035821749918341084,
+          "max": 0.15443000006598595
+        },
+        "frontend_ms": {
+          "p50": 24.139809499956755,
+          "p95": 27.423720249942107,
+          "p99": 78.64937824996332,
+          "max": 90.07476900001166
+        },
+        "map_update_ms": {
+          "p50": 6.8239730000000005,
+          "p95": 24.154304299999993,
+          "p99": 26.82621447,
+          "max": 32.472182
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 2
+      },
+      "mlp11": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 15.38,
+        "arrival_time_s": 15.38,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 34.35915000000023,
+          "p95": 49.11179300006552,
+          "p99": 65.09473040005108,
+          "max": 92.22813900009896
+        },
+        "inference_ms": {
+          "p50": 0.29650800001945754,
+          "p95": 0.3463399998508976,
+          "p99": 0.40035760007413057,
+          "max": 0.4201070000817708
+        },
+        "frontend_ms": {
+          "p50": 24.857905000089886,
+          "p95": 28.254357999912827,
+          "p99": 33.66502740000218,
+          "max": 83.75296799999887
+        },
+        "map_update_ms": {
+          "p50": 8.261395,
+          "p95": 23.75936275,
+          "p99": 26.27528955,
+          "max": 27.08671
+        },
+        "escape_rpc_ms": {
+          "p50": 2.753833999804556,
+          "p95": 2.753833999804556,
+          "p99": 2.753833999804556,
+          "max": 2.753833999804556
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 0
+      },
+      "short_recover": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 16.11625,
+        "arrival_time_s": 16.11625,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 16.421249000131866,
+          "p95": 29.17367960008049,
+          "p99": 53.66234452003482,
+          "max": 59.236660000124175
+        },
+        "inference_ms": {
+          "p50": 1.6363470001579117,
+          "p95": 1.8675180000172986,
+          "p99": 1.9720294800481497,
+          "max": 2.4767469999460445
+        },
+        "frontend_ms": {
+          "p50": 6.612224000036804,
+          "p95": 7.97725000002174,
+          "p99": 9.050684119938524,
+          "max": 9.709354000051462
+        },
+        "map_update_ms": {
+          "p50": 8.107023,
+          "p95": 28.81531809999998,
+          "p99": 31.35131557999999,
+          "max": 32.597081
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatial11": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "reached": 7,
+          "timeout": 1
+        },
+        "penalized_time_s": 17.7325,
+        "arrival_time_s": 15.265714285714283,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 34.64033400018707,
+          "p95": 42.805303000022825,
+          "p99": 59.65200660002664,
+          "max": 106.38051499995527
+        },
+        "inference_ms": {
+          "p50": 0.5841659999532567,
+          "p95": 0.68076839997957,
+          "p99": 0.7371832400531266,
+          "max": 1.1231650000809168
+        },
+        "frontend_ms": {
+          "p50": 25.0879300001543,
+          "p95": 28.915676199949303,
+          "p99": 31.495413320035354,
+          "max": 98.53683300002558
+        },
+        "map_update_ms": {
+          "p50": 6.930324000000001,
+          "p95": 23.60711084999999,
+          "p99": 26.48718718,
+          "max": 27.005605
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 2
+      },
+      "temporal11": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "reached": 7,
+          "envelope_collision": 1
+        },
+        "penalized_time_s": 17.275000000000002,
+        "arrival_time_s": 14.742857142857144,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 34.59731299994928,
+          "p95": 43.51880154998752,
+          "p99": 88.87496389002084,
+          "max": 94.92892399998709
+        },
+        "inference_ms": {
+          "p50": 0.7834315000536662,
+          "p95": 0.9081367499788938,
+          "p99": 0.9807252699692981,
+          "max": 1.0980609999933222
+        },
+        "frontend_ms": {
+          "p50": 25.199741999927028,
+          "p95": 27.971853700012158,
+          "p99": 77.5813441199944,
+          "max": 84.71027199993841
+        },
+        "map_update_ms": {
+          "p50": 7.6762999999999995,
+          "p95": 23.183484899999996,
+          "p99": 25.752223289999996,
+          "max": 26.593325
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      }
+    }
+  },
+  "recovery-stress-budget25-v1": {
+    "cases": 10,
+    "groups": {
+      "mlp11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 33.05712999986099,
+          "p95": 38.874328400015635,
+          "p99": 53.19575440001245,
+          "max": 81.83485599988671
+        },
+        "inference_ms": {
+          "p50": 0.28936700005033344,
+          "p95": 0.3404132001378456,
+          "p99": 0.4034402401066472,
+          "max": 0.40605499998491723
+        },
+        "frontend_ms": {
+          "p50": 24.064064999947732,
+          "p95": 25.561490200016124,
+          "p99": 27.61588075990402,
+          "max": 74.52519200001007
+        },
+        "map_update_ms": {
+          "p50": 8.700282,
+          "p95": 15.998104300000001,
+          "p99": 16.4501161,
+          "max": 25.369752
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 317
+      },
+      "repair_recover": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 1.4901145000294491,
+          "p95": 5.072027149992664,
+          "p99": 13.733845299971119,
+          "max": 16.057922000072722
+        },
+        "inference_ms": {},
+        "frontend_ms": {},
+        "map_update_ms": {
+          "p50": 4.3448225,
+          "p95": 18.650480400000003,
+          "p99": 19.215877409999997,
+          "max": 20.947763
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "short_recover": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 14.82,
+        "arrival_time_s": 14.82,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 15.745213499940292,
+          "p95": 18.999487400026283,
+          "p99": 19.5915293101325,
+          "max": 24.45195700011027
+        },
+        "inference_ms": {
+          "p50": 1.6397615000869337,
+          "p95": 1.8683267001165405,
+          "p99": 1.9899895400112655,
+          "max": 2.1178530000725004
+        },
+        "frontend_ms": {
+          "p50": 6.485724499952994,
+          "p95": 7.369721849943288,
+          "p99": 8.03684956016923,
+          "max": 8.053259999996953
+        },
+        "map_update_ms": {
+          "p50": 7.39335,
+          "p95": 24.5005938,
+          "p99": 25.108020720000003,
+          "max": 25.155872
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatial11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 33.29877999999553,
+          "p95": 45.71745839994036,
+          "p99": 56.923763440008685,
+          "max": 117.80552699997315
+        },
+        "inference_ms": {
+          "p50": 0.6004490001032536,
+          "p95": 0.7145332001528004,
+          "p99": 0.8021030800864535,
+          "max": 0.9310909999840078
+        },
+        "frontend_ms": {
+          "p50": 24.509709000085422,
+          "p95": 27.126274599959288,
+          "p99": 30.961048240033012,
+          "max": 110.12953599993125
+        },
+        "map_update_ms": {
+          "p50": 8.8162515,
+          "p95": 16.3301541,
+          "p99": 16.967138509999998,
+          "max": 24.267472
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 317
+      },
+      "temporal11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 31.698202999905334,
+          "p95": 39.26646700003845,
+          "p99": 50.95248762002484,
+          "max": 108.28902499997639
+        },
+        "inference_ms": {
+          "p50": 0.745245000189243,
+          "p95": 0.8504608999373885,
+          "p99": 0.9224345000166068,
+          "max": 0.9743729999627249
+        },
+        "frontend_ms": {
+          "p50": 23.210604000041712,
+          "p95": 24.66784859996096,
+          "p99": 30.92537993989935,
+          "max": 100.49024500017367
+        },
+        "map_update_ms": {
+          "p50": 8.5116875,
+          "p95": 16.0780345,
+          "p99": 16.29597738,
+          "max": 16.357648
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 319
+      }
+    }
+  },
+  "recovery-stress-holes30-v1": {
+    "cases": 10,
+    "groups": {
+      "mlp11": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 13.585,
+        "arrival_time_s": 13.585,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 35.979032000113875,
+          "p95": 53.89492780000178,
+          "p99": 61.02225647990053,
+          "max": 64.05308700004753
+        },
+        "inference_ms": {
+          "p50": 0.30951300004744553,
+          "p95": 0.36840559996562655,
+          "p99": 0.4377902000578615,
+          "max": 0.4519720000644156
+        },
+        "frontend_ms": {
+          "p50": 27.01998500015179,
+          "p95": 30.29374560001088,
+          "p99": 31.19416924014331,
+          "max": 31.862482999940767
+        },
+        "map_update_ms": {
+          "p50": 5.951722500000001,
+          "p95": 20.208914,
+          "p99": 20.9264827,
+          "max": 21.561254
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "repair_recover": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 1.5280980001080025,
+          "p95": 4.884515999970061,
+          "p99": 7.578615799993706,
+          "max": 11.424926000017877
+        },
+        "inference_ms": {},
+        "frontend_ms": {},
+        "map_update_ms": {
+          "p50": 3.9699275,
+          "p95": 19.409112150000002,
+          "p99": 21.62869443999999,
+          "max": 24.439301
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "short_recover": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 15.264999999999999,
+        "arrival_time_s": 15.264999999999999,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 17.361721999805013,
+          "p95": 21.68927200004873,
+          "p99": 22.35580184011269,
+          "max": 23.00894900008643
+        },
+        "inference_ms": {
+          "p50": 1.6482099999848288,
+          "p95": 1.9186380000064673,
+          "p99": 2.1327520399609057,
+          "max": 2.4011890000110725
+        },
+        "frontend_ms": {
+          "p50": 7.863040000074761,
+          "p95": 9.402610200049821,
+          "p99": 9.531686599984823,
+          "max": 10.26209600013317
+        },
+        "map_update_ms": {
+          "p50": 6.3829,
+          "p95": 21.0914416,
+          "p99": 21.56493092,
+          "max": 21.673613
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatial11": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 13.7,
+        "arrival_time_s": 13.7,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 36.073194499977035,
+          "p95": 42.13814414982835,
+          "p99": 45.57084212005064,
+          "max": 47.88469699997222
+        },
+        "inference_ms": {
+          "p50": 0.5958680001185712,
+          "p95": 0.652968000065357,
+          "p99": 0.7557412798587384,
+          "max": 0.8753429999615037
+        },
+        "frontend_ms": {
+          "p50": 27.156487999945966,
+          "p95": 29.731627750061307,
+          "p99": 32.13331191997895,
+          "max": 32.195209000065006
+        },
+        "map_update_ms": {
+          "p50": 5.901666499999999,
+          "p95": 19.675834450000004,
+          "p99": 20.41289332,
+          "max": 21.173976
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "temporal11": {
+        "cases": 2,
+        "reached": 2,
+        "outcomes": {
+          "reached": 2
+        },
+        "penalized_time_s": 13.28,
+        "arrival_time_s": 13.28,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 35.4853244999731,
+          "p95": 55.87627834993327,
+          "p99": 58.743077949989136,
+          "max": 59.81729199993424
+        },
+        "inference_ms": {
+          "p50": 0.8124805000306878,
+          "p95": 0.8939351501112469,
+          "p99": 0.9874562900927232,
+          "max": 1.0129190000043309
+        },
+        "frontend_ms": {
+          "p50": 26.7386919999808,
+          "p95": 29.616894599996613,
+          "p99": 31.29490088017519,
+          "max": 31.39712300003339
+        },
+        "map_update_ms": {
+          "p50": 6.155202,
+          "p95": 19.99219025,
+          "p99": 20.48493753,
+          "max": 20.661442
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      }
+    }
+  },
+  "recovery-stress-late650-v1": {
+    "cases": 10,
+    "groups": {
+      "mlp11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 33.08218649999617,
+          "p95": 39.140061100010826,
+          "p99": 54.26745334012593,
+          "max": 60.29609100005473
+        },
+        "inference_ms": {
+          "p50": 0.29088899998441775,
+          "p95": 0.33287510005948207,
+          "p99": 0.4111507401626113,
+          "max": 0.565144000120199
+        },
+        "frontend_ms": {
+          "p50": 23.47873200005779,
+          "p95": 25.64225804991338,
+          "p99": 26.722088620012983,
+          "max": 32.951738999827285
+        },
+        "map_update_ms": {
+          "p50": 6.848063,
+          "p95": 23.7472262,
+          "p99": 24.94607414,
+          "max": 25.219696
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "repair_recover": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 1.0804659998484567,
+          "p95": 11.41721300007248,
+          "p99": 15.716692299906757,
+          "max": 24.199745000032635
+        },
+        "inference_ms": {},
+        "frontend_ms": {},
+        "map_update_ms": {
+          "p50": 8.425580499999999,
+          "p95": 18.239612049999998,
+          "p99": 19.0545468,
+          "max": 22.441524
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "short_recover": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 16.698102999953335,
+          "p95": 18.497519000038665,
+          "p99": 23.890930879970263,
+          "max": 40.67110699998011
+        },
+        "inference_ms": {
+          "p50": 1.5716949999386998,
+          "p95": 1.7646622000484058,
+          "p99": 1.9659888799833427,
+          "max": 1.9754929999180604
+        },
+        "frontend_ms": {
+          "p50": 5.98313299997244,
+          "p95": 6.577136600026279,
+          "p99": 6.856760199989367,
+          "max": 7.254953999790814
+        },
+        "map_update_ms": {
+          "p50": 8.158479,
+          "p95": 21.127292899999997,
+          "p99": 21.63489154,
+          "max": 21.945772
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatial11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 35.22305600006348,
+          "p95": 43.6525973499897,
+          "p99": 66.7972872901214,
+          "max": 87.36200199996347
+        },
+        "inference_ms": {
+          "p50": 0.5823024999926929,
+          "p95": 0.6534949000638335,
+          "p99": 0.7175918200323395,
+          "max": 0.7543190001797484
+        },
+        "frontend_ms": {
+          "p50": 24.266218999855482,
+          "p95": 26.51609594996671,
+          "p99": 28.30609849994971,
+          "max": 72.86892899992381
+        },
+        "map_update_ms": {
+          "p50": 6.648695,
+          "p95": 24.9960928,
+          "p99": 26.247216919999996,
+          "max": 26.636911
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "temporal11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 2
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 33.55527849998907,
+          "p95": 43.190066750059906,
+          "p99": 66.78320962016413,
+          "max": 81.82779200001278
+        },
+        "inference_ms": {
+          "p50": 0.7738125000287255,
+          "p95": 0.8494481999150594,
+          "p99": 0.974618629870747,
+          "max": 1.0026599998127494
+        },
+        "frontend_ms": {
+          "p50": 23.83397900007367,
+          "p95": 25.34920085003023,
+          "p99": 53.61827684990882,
+          "max": 72.58218400011174
+        },
+        "map_update_ms": {
+          "p50": 6.6608815,
+          "p95": 23.4818371,
+          "p99": 24.688207199999994,
+          "max": 25.051374
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      }
+    }
+  },
+  "recovery-stress-range3-v1": {
+    "cases": 10,
+    "groups": {
+      "mlp11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 1,
+          "no_validated_escape": 1
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 1,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 25.64178850002463,
+          "p95": 28.052930199885395,
+          "p99": 29.339028210056313,
+          "max": 37.851602000046114
+        },
+        "inference_ms": {
+          "p50": 0.3024449999884382,
+          "p95": 0.4020617998776288,
+          "p99": 0.4198941199229012,
+          "max": 0.45456899988494115
+        },
+        "frontend_ms": {
+          "p50": 22.67989249992297,
+          "p95": 24.79323825002666,
+          "p99": 26.203733700033354,
+          "max": 26.36691499992594
+        },
+        "map_update_ms": {
+          "p50": 3.548905,
+          "p95": 4.0346505,
+          "p99": 4.1932815,
+          "max": 4.239169
+        },
+        "escape_rpc_ms": {
+          "p50": 3.846311999950558,
+          "p95": 3.846311999950558,
+          "p99": 3.846311999950558,
+          "max": 3.846311999950558
+        },
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "repair_recover": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "no_validated_escape": 1,
+          "timeout": 1
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 1,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 4.686006999918391,
+          "p95": 12.376502900065134,
+          "p99": 13.046056980028881,
+          "max": 13.665268000067954
+        },
+        "inference_ms": {},
+        "frontend_ms": {},
+        "map_update_ms": {
+          "p50": 3.750667,
+          "p95": 4.097474249999999,
+          "p99": 4.2547125,
+          "max": 4.294137
+        },
+        "escape_rpc_ms": {
+          "p50": 3.095627999982753,
+          "p95": 3.095627999982753,
+          "p99": 3.095627999982753,
+          "max": 3.095627999982753
+        },
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "short_recover": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 1,
+          "no_validated_escape": 1
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 1,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 11.522987500029558,
+          "p95": 12.640824749996682,
+          "p99": 13.36914225004648,
+          "max": 18.22859599997173
+        },
+        "inference_ms": {
+          "p50": 1.6793589998087555,
+          "p95": 1.9144412000059674,
+          "p99": 2.0739980799862683,
+          "max": 2.189156999975239
+        },
+        "frontend_ms": {
+          "p50": 6.173503000013625,
+          "p95": 7.061369400025796,
+          "p99": 7.363163290078774,
+          "max": 13.035027999876547
+        },
+        "map_update_ms": {
+          "p50": 3.70205,
+          "p95": 3.9040765,
+          "p99": 3.95478125,
+          "max": 4.177192
+        },
+        "escape_rpc_ms": {
+          "p50": 3.0579059998672165,
+          "p95": 3.0579059998672165,
+          "p99": 3.0579059998672165,
+          "max": 3.0579059998672165
+        },
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatial11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "timeout": 1,
+          "no_validated_escape": 1
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 1,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 25.59694250010125,
+          "p95": 28.718446350137583,
+          "p99": 29.77144131989462,
+          "max": 78.90048500007651
+        },
+        "inference_ms": {
+          "p50": 0.5738899999414571,
+          "p95": 0.6628458000704995,
+          "p99": 0.6938052400892047,
+          "max": 0.7141210001009313
+        },
+        "frontend_ms": {
+          "p50": 22.425517999977274,
+          "p95": 25.293180300070613,
+          "p99": 26.28184947012869,
+          "max": 66.58296900013738
+        },
+        "map_update_ms": {
+          "p50": 3.618611,
+          "p95": 4.1168647499999995,
+          "p99": 4.3114015000000006,
+          "max": 4.412538
+        },
+        "escape_rpc_ms": {
+          "p50": 2.5988349998442573,
+          "p95": 2.5988349998442573,
+          "p99": 2.5988349998442573,
+          "max": 2.5988349998442573
+        },
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "temporal11": {
+        "cases": 2,
+        "reached": 0,
+        "outcomes": {
+          "no_validated_escape": 1,
+          "timeout": 1
+        },
+        "penalized_time_s": 35.0,
+        "arrival_time_s": null,
+        "escape_searches": 1,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 25.44302100011464,
+          "p95": 27.251977649893888,
+          "p99": 28.90566795016639,
+          "max": 67.80506500012962
+        },
+        "inference_ms": {
+          "p50": 0.7852589999401971,
+          "p95": 0.9097205999751166,
+          "p99": 0.972033200050646,
+          "max": 1.312134000045262
+        },
+        "frontend_ms": {
+          "p50": 22.486262999905193,
+          "p95": 24.100663900060226,
+          "p99": 25.740120479920275,
+          "max": 65.09719900009259
+        },
+        "map_update_ms": {
+          "p50": 3.6695435,
+          "p95": 4.02723975,
+          "p99": 4.22921925,
+          "max": 4.38429
+        },
+        "escape_rpc_ms": {
+          "p50": 2.846763999968971,
+          "p95": 2.846763999968971,
+          "p99": 2.846763999968971,
+          "max": 2.846763999968971
+        },
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      }
+    }
+  },
+  "recovery-test-v1": {
+    "cases": 152,
+    "groups": {
+      "bankrule": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "reached": 7,
+          "timeout": 1
+        },
+        "penalized_time_s": 17.771250000000002,
+        "arrival_time_s": 15.309999999999999,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 33.243791000018064,
+          "p95": 52.59134400000675,
+          "p99": 84.32850666000152,
+          "max": 105.49231699997108
+        },
+        "inference_ms": {
+          "p50": 0.022017999981471803,
+          "p95": 0.028698300161522635,
+          "p99": 0.03720407993569098,
+          "max": 0.10232999989057134
+        },
+        "frontend_ms": {
+          "p50": 24.131372000056217,
+          "p95": 29.69990769988726,
+          "p99": 76.27079517999391,
+          "max": 96.233317000042
+        },
+        "map_update_ms": {
+          "p50": 6.9997095,
+          "p95": 23.274170349999995,
+          "p99": 26.382914669999995,
+          "max": 28.039668
+        },
+        "escape_rpc_ms": {
+          "p50": 1.527856000166139,
+          "p95": 1.527856000166139,
+          "p99": 1.527856000166139,
+          "max": 1.527856000166139
+        },
+        "minimum_escape_commit_slack_s": 0.005000000000000782,
+        "compute_budget_rejections": 1
+      },
+      "mlp11": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 15.256250000000001,
+        "arrival_time_s": 15.256250000000001,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 33.486296500029766,
+          "p95": 41.39144994996967,
+          "p99": 51.9322461699778,
+          "max": 92.59485900020081
+        },
+        "inference_ms": {
+          "p50": 0.2906810000240512,
+          "p95": 0.3485317500576457,
+          "p99": 0.4056722099471697,
+          "max": 0.5135349999818573
+        },
+        "frontend_ms": {
+          "p50": 24.284730999966087,
+          "p95": 27.074905249855874,
+          "p99": 28.062233790049046,
+          "max": 84.2705540001134
+        },
+        "map_update_ms": {
+          "p50": 7.8163735,
+          "p95": 23.65378195,
+          "p99": 25.925725579999995,
+          "max": 28.282451
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "mlp22": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "reached": 7,
+          "timeout": 1
+        },
+        "penalized_time_s": 17.287499999999998,
+        "arrival_time_s": 14.757142857142856,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 32.98054649997084,
+          "p95": 48.29777044989214,
+          "p99": 76.27393009000345,
+          "max": 99.30667300000096
+        },
+        "inference_ms": {
+          "p50": 0.29022749987461793,
+          "p95": 0.34012240004130945,
+          "p99": 0.3977546099997653,
+          "max": 0.4650900000342517
+        },
+        "frontend_ms": {
+          "p50": 24.346129500031566,
+          "p95": 26.915975099984735,
+          "p99": 67.34474104981021,
+          "max": 87.81344099998023
+        },
+        "map_update_ms": {
+          "p50": 9.490487000000002,
+          "p95": 25.4958815,
+          "p99": 26.05162813,
+          "max": 26.920949
+        },
+        "escape_rpc_ms": {
+          "p50": 1.4599279999174541,
+          "p95": 1.4599279999174541,
+          "p99": 1.4599279999174541,
+          "max": 1.4599279999174541
+        },
+        "minimum_escape_commit_slack_s": 0.005000000000000782,
+        "compute_budget_rejections": 0
+      },
+      "mlp33": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 15.14625,
+        "arrival_time_s": 15.14625,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 34.26676599997336,
+          "p95": 47.37862500002166,
+          "p99": 60.7295346499541,
+          "max": 93.83627800002614
+        },
+        "inference_ms": {
+          "p50": 0.29444899996633467,
+          "p95": 0.36283849999563245,
+          "p99": 0.41643877997557877,
+          "max": 0.5421209998530685
+        },
+        "frontend_ms": {
+          "p50": 24.692087999994783,
+          "p95": 28.700130999880002,
+          "p99": 30.611583599954898,
+          "max": 84.26651700006005
+        },
+        "map_update_ms": {
+          "p50": 8.358823,
+          "p95": 24.24796305,
+          "p99": 26.234490979999997,
+          "max": 27.579219
+        },
+        "escape_rpc_ms": {
+          "p50": 1.6844939999600683,
+          "p95": 1.6844939999600683,
+          "p99": 1.6844939999600683,
+          "max": 1.6844939999600683
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 0
+      },
+      "old": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 15.16125,
+        "arrival_time_s": 15.16125,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 14.916120499947283,
+          "p95": 17.986632200120308,
+          "p99": 19.631395159913154,
+          "max": 38.352867000071456
+        },
+        "inference_ms": {
+          "p50": 0.6748885000433802,
+          "p95": 0.7726812500209235,
+          "p99": 0.8237709399008963,
+          "max": 0.9352130000479519
+        },
+        "frontend_ms": {
+          "p50": 5.659373500066067,
+          "p95": 6.997328300087702,
+          "p99": 7.828895149968957,
+          "max": 8.580169999959253
+        },
+        "map_update_ms": {
+          "p50": 8.131606,
+          "p95": 24.395788800000002,
+          "p99": 26.30191848,
+          "max": 27.45123
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "old_recover": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "reached": 7,
+          "timeout": 1
+        },
+        "penalized_time_s": 17.78,
+        "arrival_time_s": 15.319999999999999,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 14.665043999912086,
+          "p95": 19.193940599939193,
+          "p99": 45.10489492005489,
+          "max": 47.96525599999768
+        },
+        "inference_ms": {
+          "p50": 0.6901490000927879,
+          "p95": 0.7995048999873688,
+          "p99": 0.9150373400575514,
+          "max": 1.186824000001252
+        },
+        "frontend_ms": {
+          "p50": 5.655990000150268,
+          "p95": 7.171410399996603,
+          "p99": 7.82920818004186,
+          "max": 16.02556000000277
+        },
+        "map_update_ms": {
+          "p50": 6.786827,
+          "p95": 24.281356999999996,
+          "p99": 27.623965079999998,
+          "max": 32.922013
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "repair": {
+        "cases": 8,
+        "reached": 3,
+        "outcomes": {
+          "timeout": 5,
+          "reached": 3
+        },
+        "penalized_time_s": 30.59,
+        "arrival_time_s": 23.24,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 1.5500640000141175,
+          "p95": 7.94568179992437,
+          "p99": 31.37494407000303,
+          "max": 69.38618599997426
+        },
+        "inference_ms": {},
+        "frontend_ms": {},
+        "map_update_ms": {
+          "p50": 6.471105,
+          "p95": 21.879520799999995,
+          "p99": 25.32264956,
+          "max": 25.721228
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "repair_recover": {
+        "cases": 8,
+        "reached": 2,
+        "outcomes": {
+          "timeout": 6,
+          "reached": 2
+        },
+        "penalized_time_s": 33.42,
+        "arrival_time_s": 28.68,
+        "escape_searches": 2,
+        "escape_commits": 2,
+        "plan_rpc_ms": {
+          "p50": 1.5757440000925271,
+          "p95": 8.305717899952468,
+          "p99": 29.720357199973925,
+          "max": 306.9673380000495
+        },
+        "inference_ms": {},
+        "frontend_ms": {},
+        "map_update_ms": {
+          "p50": 6.615962,
+          "p95": 24.123517399999997,
+          "p99": 32.83103124,
+          "max": 34.936505
+        },
+        "escape_rpc_ms": {
+          "p50": 2.3445195000135755,
+          "p95": 2.561060850035801,
+          "p99": 2.580308970037777,
+          "max": 2.5851210000382707
+        },
+        "minimum_escape_commit_slack_s": 0.005000000000000782,
+        "compute_budget_rejections": 1
+      },
+      "riskrule": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 15.671249999999999,
+        "arrival_time_s": 15.671249999999999,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 33.74788649995253,
+          "p95": 46.16115899993925,
+          "p99": 65.53910228996985,
+          "max": 103.98631099997147
+        },
+        "inference_ms": {
+          "p50": 0.024305500005539216,
+          "p95": 0.03266970003323877,
+          "p99": 0.04413641007658954,
+          "max": 0.1197269998556294
+        },
+        "frontend_ms": {
+          "p50": 24.28166400000009,
+          "p95": 27.785370200018633,
+          "p99": 31.866362399946446,
+          "max": 96.33164499996383
+        },
+        "map_update_ms": {
+          "p50": 8.167667999999999,
+          "p95": 25.178258149999998,
+          "p99": 27.658665190000004,
+          "max": 28.48877
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 1
+      },
+      "short": {
+        "cases": 8,
+        "reached": 6,
+        "outcomes": {
+          "reached": 6,
+          "envelope_collision": 1,
+          "no_validated_escape": 1
+        },
+        "penalized_time_s": 21.03875,
+        "arrival_time_s": 16.385,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 16.083289499988496,
+          "p95": 30.087758249919716,
+          "p99": 48.18881025001363,
+          "max": 56.111034999958065
+        },
+        "inference_ms": {
+          "p50": 1.6148055000257955,
+          "p95": 1.907934999991312,
+          "p99": 2.4004722498602873,
+          "max": 3.3012929999358676
+        },
+        "frontend_ms": {
+          "p50": 6.503179000048931,
+          "p95": 7.922675749995278,
+          "p99": 8.38842154998929,
+          "max": 11.051220000013018
+        },
+        "map_update_ms": {
+          "p50": 7.6220335,
+          "p95": 25.962643749999994,
+          "p99": 30.869849010000006,
+          "max": 31.722911
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "short_recover": {
+        "cases": 8,
+        "reached": 6,
+        "outcomes": {
+          "reached": 6,
+          "envelope_collision": 2
+        },
+        "penalized_time_s": 20.875,
+        "arrival_time_s": 16.166666666666668,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 16.249339999944823,
+          "p95": 20.11972780009046,
+          "p99": 43.24548211998488,
+          "max": 46.32554900001651
+        },
+        "inference_ms": {
+          "p50": 1.6502820000141583,
+          "p95": 1.9747334999237862,
+          "p99": 2.383121719958581,
+          "max": 3.301400000054855
+        },
+        "frontend_ms": {
+          "p50": 6.5742340000269905,
+          "p95": 7.925335700042524,
+          "p99": 8.810521080001763,
+          "max": 11.330348000001322
+        },
+        "map_update_ms": {
+          "p50": 7.8246325,
+          "p95": 24.1791384,
+          "p99": 26.58780938000003,
+          "max": 28.308163
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatial11": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 15.0,
+        "arrival_time_s": 15.0,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 35.539145499910774,
+          "p95": 57.04229714996242,
+          "p99": 86.82961253002973,
+          "max": 123.03777700003593
+        },
+        "inference_ms": {
+          "p50": 0.5907424999804789,
+          "p95": 0.7250532500052032,
+          "p99": 0.8711072100709316,
+          "max": 0.9423939999351205
+        },
+        "frontend_ms": {
+          "p50": 25.48799349995079,
+          "p95": 30.194198049969145,
+          "p99": 76.07478540982116,
+          "max": 113.72281800004203
+        },
+        "map_update_ms": {
+          "p50": 8.3320775,
+          "p95": 25.2772355,
+          "p99": 29.748788800000003,
+          "max": 35.362103
+        },
+        "escape_rpc_ms": {
+          "p50": 2.1010410000599222,
+          "p95": 2.1010410000599222,
+          "p99": 2.1010410000599222,
+          "max": 2.1010410000599222
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 2
+      },
+      "spatial22": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 15.32625,
+        "arrival_time_s": 15.32625,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 33.964226000023245,
+          "p95": 47.35382174999927,
+          "p99": 77.46525857997544,
+          "max": 120.61695400007011
+        },
+        "inference_ms": {
+          "p50": 0.5838285001118493,
+          "p95": 0.6725269500236661,
+          "p99": 0.8048837900048512,
+          "max": 0.8897889999843756
+        },
+        "frontend_ms": {
+          "p50": 24.83663400005298,
+          "p95": 27.821603249941518,
+          "p99": 65.04228406004482,
+          "max": 109.94352200009416
+        },
+        "map_update_ms": {
+          "p50": 7.8562294999999995,
+          "p95": 23.8973513,
+          "p99": 25.35370286,
+          "max": 27.027475
+        },
+        "escape_rpc_ms": {
+          "p50": 1.743430000033186,
+          "p95": 1.743430000033186,
+          "p99": 1.743430000033186,
+          "max": 1.743430000033186
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 2
+      },
+      "spatial33": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "timeout": 1,
+          "reached": 7
+        },
+        "penalized_time_s": 17.92125,
+        "arrival_time_s": 15.481428571428571,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 33.83676549998427,
+          "p95": 57.45914645000311,
+          "p99": 68.92980821002197,
+          "max": 92.75723799999014
+        },
+        "inference_ms": {
+          "p50": 0.5856155000856234,
+          "p95": 0.693102799925782,
+          "p99": 0.7713954000507783,
+          "max": 0.9308700000474346
+        },
+        "frontend_ms": {
+          "p50": 24.75809249995109,
+          "p95": 28.582502350030836,
+          "p99": 30.80809009001314,
+          "max": 79.86678099996425
+        },
+        "map_update_ms": {
+          "p50": 6.963834,
+          "p95": 24.32414,
+          "p99": 26.339271500000013,
+          "max": 27.576673
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatialbase11": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 14.97375,
+        "arrival_time_s": 14.97375,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 34.62003900006039,
+          "p95": 49.636873899999046,
+          "p99": 66.05460073001495,
+          "max": 70.56541800000105
+        },
+        "inference_ms": {
+          "p50": 0.5776219999233945,
+          "p95": 0.6687462000286359,
+          "p99": 0.7303399598754364,
+          "max": 1.4446029999817256
+        },
+        "frontend_ms": {
+          "p50": 25.01188150000644,
+          "p95": 28.17967785001656,
+          "p99": 30.105479419981954,
+          "max": 60.138303000030646
+        },
+        "map_update_ms": {
+          "p50": 8.116847,
+          "p95": 24.002121149999994,
+          "p99": 26.154218189999998,
+          "max": 28.455467
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      },
+      "spatialnow11": {
+        "cases": 8,
+        "reached": 6,
+        "outcomes": {
+          "reached": 6,
+          "timeout": 2
+        },
+        "penalized_time_s": 20.40375,
+        "arrival_time_s": 15.538333333333334,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 33.18897150001021,
+          "p95": 45.982862099998556,
+          "p99": 61.54557476999008,
+          "max": 106.64196599987008
+        },
+        "inference_ms": {
+          "p50": 0.583342499965056,
+          "p95": 0.6951814498734167,
+          "p99": 0.7550450200028537,
+          "max": 0.8021150001695787
+        },
+        "frontend_ms": {
+          "p50": 24.53140049999547,
+          "p95": 28.54280290009683,
+          "p99": 30.53764408999882,
+          "max": 96.58925000007912
+        },
+        "map_update_ms": {
+          "p50": 6.391149,
+          "p95": 22.946697099999998,
+          "p99": 27.156850299999988,
+          "max": 29.109538
+        },
+        "escape_rpc_ms": {
+          "p50": 1.7507690000684306,
+          "p95": 1.7507690000684306,
+          "p99": 1.7507690000684306,
+          "max": 1.7507690000684306
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 2
+      },
+      "temporal11": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "reached": 7,
+          "timeout": 1
+        },
+        "penalized_time_s": 17.63875,
+        "arrival_time_s": 15.158571428571431,
+        "escape_searches": 1,
+        "escape_commits": 1,
+        "plan_rpc_ms": {
+          "p50": 33.59972899988861,
+          "p95": 46.13419315007831,
+          "p99": 64.44343977003197,
+          "max": 122.95589600012136
+        },
+        "inference_ms": {
+          "p50": 0.7786360000636705,
+          "p95": 0.8886960499467023,
+          "p99": 0.9406412499527049,
+          "max": 1.069381000093017
+        },
+        "frontend_ms": {
+          "p50": 25.159240500045144,
+          "p95": 27.394218299843942,
+          "p99": 29.410240300080652,
+          "max": 87.10806299995966
+        },
+        "map_update_ms": {
+          "p50": 7.45281,
+          "p95": 24.0350489,
+          "p99": 26.321498759999997,
+          "max": 28.847392
+        },
+        "escape_rpc_ms": {
+          "p50": 1.4390299999149647,
+          "p95": 1.4390299999149647,
+          "p99": 1.4390299999149647,
+          "max": 1.4390299999149647
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 1
+      },
+      "temporal22": {
+        "cases": 8,
+        "reached": 8,
+        "outcomes": {
+          "reached": 8
+        },
+        "penalized_time_s": 15.06375,
+        "arrival_time_s": 15.06375,
+        "escape_searches": 2,
+        "escape_commits": 2,
+        "plan_rpc_ms": {
+          "p50": 34.25627249998797,
+          "p95": 52.3125641000547,
+          "p99": 67.57442627989349,
+          "max": 112.79330899992601
+        },
+        "inference_ms": {
+          "p50": 0.7727069998963998,
+          "p95": 0.9943415999941858,
+          "p99": 1.156812440003705,
+          "max": 1.268288999995093
+        },
+        "frontend_ms": {
+          "p50": 24.630391500124915,
+          "p95": 30.32473384996023,
+          "p99": 34.73107552003739,
+          "max": 79.24805400011792
+        },
+        "map_update_ms": {
+          "p50": 8.1063475,
+          "p95": 24.575373,
+          "p99": 27.579512500000074,
+          "max": 29.044233
+        },
+        "escape_rpc_ms": {
+          "p50": 1.434754999991128,
+          "p95": 1.5285169999856407,
+          "p99": 1.536851399985153,
+          "max": 1.538934999985031
+        },
+        "minimum_escape_commit_slack_s": 0.004999999999999005,
+        "compute_budget_rejections": 1
+      },
+      "temporal33": {
+        "cases": 8,
+        "reached": 7,
+        "outcomes": {
+          "reached": 7,
+          "timeout": 1
+        },
+        "penalized_time_s": 17.3125,
+        "arrival_time_s": 14.785714285714286,
+        "escape_searches": 0,
+        "escape_commits": 0,
+        "plan_rpc_ms": {
+          "p50": 34.6535630001199,
+          "p95": 59.91309260004982,
+          "p99": 63.13436224001176,
+          "max": 89.79342099996757
+        },
+        "inference_ms": {
+          "p50": 0.7933019999200042,
+          "p95": 0.9098334999862344,
+          "p99": 0.9650412600694833,
+          "max": 1.181910000013886
+        },
+        "frontend_ms": {
+          "p50": 25.428411999882883,
+          "p95": 27.980964300070355,
+          "p99": 29.818943659925026,
+          "max": 85.50733099991703
+        },
+        "map_update_ms": {
+          "p50": 9.515086499999999,
+          "p95": 26.702152599999998,
+          "p99": 27.267083250000002,
+          "max": 27.802032
+        },
+        "escape_rpc_ms": {},
+        "minimum_escape_commit_slack_s": null,
+        "compute_budget_rejections": 0
+      }
+    }
+  }
+}

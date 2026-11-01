@@ -1,0 +1,29 @@
+{
+  "format": "d435i_recovery_survival_v1",
+  "dataset": "/home/chaonian/d435i-recovery-20261031/single-uav-pointcloud-nav/runs/recovery-branches-v4",
+  "dataset_sha256": "69e13821a914c50f1d8eca0f2566d773769071a228953f33af22972de1a4ea6c",
+  "train_states": 869,
+  "validation_states": 158,
+  "kinds": [
+    "spatial"
+  ],
+  "seeds": [
+    11
+  ],
+  "epochs": 60,
+  "optimizer": "Adam lr=0.001 batch32 weight_decay=1e-5 clip_grad=2",
+  "loss": "Conditional survival BCE, invalid transition weight4, masked right censoring",
+  "selection": "minimum validation weighted hazard loss; no test map selection",
+  "risk_weight": 0.8,
+  "geometry": "fixed exact-PVA timed candidate seeds",
+  "horizons": [
+    0.2,
+    0.4,
+    0.8
+  ],
+  "current_only": true,
+  "tag": "now",
+  "duplicate_weights": "inverse exact rounded candidate multiplicity",
+  "observed_failure_censor_corrections": 0,
+  "effective_supervision_sha256": "fb4d242a20fa7de9cfe7c5b1fc5159ff73b7668350b71a21900d645a886289ff"
+}

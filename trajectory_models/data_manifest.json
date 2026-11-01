@@ -1,0 +1,30 @@
+{
+  "format": "range_trajectory_v1",
+  "source": "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1",
+  "source_hashes": {
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3102_ego_repair/requests.jsonl": "1364d058f7dcc7a58d3f8ef5294a37864df4852587c660412ce8c8138c5dea60",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3202_rog_repair/requests.jsonl": "ac2e4035d5de09f6fe13e7527c1ca046b4bc6c9d5068d2bcc429246fa72743e5",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3105_rog_repair/requests.jsonl": "272b7c24876c7604ef358b9d73d7342427c9fe547323f043b7c02e5a3b28d048",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3104_ego_repair/requests.jsonl": "b76a2186f9a7eccdaa3f2dd6e3dbd254668eee14fc2605530717b3b8147e4164",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3106_rog_repair/requests.jsonl": "88480b74598ae3995017bbd21d5045409d377f26aabca1282e2fb4f5c90bccd9",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3103_ego_repair/requests.jsonl": "34aa36994cf6375fdc0439d19357ff72052673957f9cb6a6948095ce788283f8",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3104_rog_repair/requests.jsonl": "dba29edfc49c02d760d406ac54400352d1a1358ae23d488a99485eed40b2f63b",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3103_rog_repair/requests.jsonl": "f044ce5f2815afb5c10551b4f3c262ffd340ecb156f52b556f3c501aa28493b4",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3105_ego_repair/requests.jsonl": "724c53e189c0a8835d3de322a9657344273e4b37ad486c39426aaafab2cd14b3",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3102_rog_repair/requests.jsonl": "b11248f525d7395e034f3873a8c0064e4a8fcbf8e10b229f659a07be4d22886c",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3201_rog_repair/requests.jsonl": "b4bc1e02a0e3949d62bfff6d55e671324b4d6084d669bb3087463b6b9d5f6010",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3101_ego_repair/requests.jsonl": "072b37fbb9fed74eb6e3cae2a361397e73af4998a11115445a8e618070cbe754",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3201_ego_repair/requests.jsonl": "042ae4ba3d257ee04ad07c3312c86f98c7d7f5895fa86cd9f049bd04ec2857b6",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3106_ego_repair/requests.jsonl": "519ae39a70e6e2eeb7c7ae5e7f6cba520fe4f96bd99d25dec9e93144123f11d6",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3101_rog_repair/requests.jsonl": "29a35237da7d7f3541e570001adbd9c2738a6d93096b5b8449678a9e762a745d",
+    "/home/chaonian/yopo-adaptation-20261030/single-uav-pointcloud-nav/runs/branch-labels-v1/branches/forest_3202_ego_repair/requests.jsonl": "943b69e5452be3d07d38c67d3892587b6fe98649d12b1bf8f3a8053ec04c5071"
+  },
+  "samples": 399,
+  "train": 320,
+  "validation": 79,
+  "target": "3 equal-arc samples from each valid EGO candidate, local bounded offsets; invalid geometry masked",
+  "quality": "Existing 0.6s progress + terminal progress - route length surrogate; not long-horizon value",
+  "clipped_coordinate_fraction": 0.0,
+  "truth_in_observation": false,
+  "dataset_sha256": "763f0188ab4e6f8c13f7c0c66203e8e0b6f2fe591f2a106825e6b46fdf02b18e"
+}

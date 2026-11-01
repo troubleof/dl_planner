@@ -1,0 +1,35 @@
+2026-11-01 交付：本轮复现与文件说明（工程于 2026-10-31 创建）
+
+默认隔离工程：/home/chaonian/d435i-recovery-20261031/single-uav-pointcloud-nav
+Windows 同步源码：D:/UAV_Research/ego/research/d435i-recovery-20261031/standalone_source
+旧冻结基线：/home/chaonian/d435i-visible-20261031/single-uav-pointcloud-nav
+
+WSL Bash：
+cd /home/chaonian/d435i-recovery-20261031/single-uav-pointcloud-nav
+CMAKE_BUILD_PARALLEL_LEVEL=2 bash build_navigation.sh
+source /opt/ros/humble/setup.bash
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
+py=/home/chaonian/yopo-ego-20261029/venv/bin/python
+run_tag=$(date +%Y%m%d-%H%M%S)
+$py tools/run_recovery_experiment.py --out "runs/check-$run_tag" --split regression --seeds 3104 4482 --policies short_recover spatial11 temporal11
+
+正式独立矩阵命令见 formal_v1.sh。它拒绝重用已有输出目录；重跑必须改输出名。formal_v1.sh 也固定了重复与四种压力测试。历史 4382/4482/4483 已用于模型开发，不再是独立测试地图。
+训练：$py tools/train_recovery.py --dataset runs/recovery-branches-v4 --out "survival_models-$run_tag"
+本轮两个单种子消融命令见 train_models_v1.sh。
+数据从旧失败和相机策略状态开始，合并协议见 runs/recovery-data-v3/protocol.json；候选自身分支见 runs/recovery-branches-v4/protocol.json、branches.json、workers；实际监督标签和哈希见 survival_models/effective_supervision.npz 与 training_protocol.json。
+
+关键实现：
+src/pointcloud_nav/src/worker.cpp: escape、candidate_features、label_schedules、make_stops；原 check 不放宽。
+tools/backup_trial.py: recovery_mode 可关闭，用实测 ready 时间提交重验证停车。
+tools/recovery_frontend.py: 45 个时标候选、三个网络结构、有限风险排序。
+tools/build_recovery_data.py / augment_recovery_branches.py / merge_recovery_data.py / train_recovery.py: 接收前缀、后续地图、候选自身视角和训练。
+tools/run_recovery_experiment.py: 同工程/同相机/同验证器的闭环矩阵。
+
+归档：source.tar.gz 为完整可编译源码和权重；evidence.tar.gz 包含所有本轮 runs、进程日志及需要的父实验冻结输入。archive_paths.json 保存原绝对路径到归档位置的映射。
+异机解压后，在新的副本上运行：
+python relocate_extracted_evidence.py --source /绝对路径/解压源码 --evidence /绝对路径/解压证据
+该脚本只改新解压 JSON/JSONL 的路径，原压缩包保持不变。然后按上面命令重新编译。工具仍需 Python/numpy/scipy/torch CPU 与 ROS2 Humble 环境，不包含可再分发的整套 ROS/WSL 镜像。
+
+详细结果：summary.json、all_failures.json、data_audit.json、audit_summary.json、truth_diagnosis.json、deployment_survival/benchmark.json 以及各 runs/*audit*/audit.json。
+原型/中断记录：attempts.json；错误版标签和未完成分支不冒充训练完成。恢复时创建新输出目录，不覆盖旧记录。
+旧基线源码哈希复核：baseline_preservation.json。完整冻结：frozen_hashes.json、archive_verification.json。

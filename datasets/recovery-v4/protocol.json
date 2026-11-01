@@ -1,0 +1,23 @@
+{
+  "parent_sha256": "e514e152c7db10ca7dc0169cb6e24d4b525559ff0d6c09125c703dffde3c46e3",
+  "dataset_sha256": "69e13821a914c50f1d8eca0f2566d773769071a228953f33af22972de1a4ea6c",
+  "base_states": 827,
+  "branched_states": 64,
+  "branches": 200,
+  "future_invalid": 27,
+  "train_branches": 149,
+  "validation_branches": 51,
+  "semantics": "Same received input; exact candidate/stop executed without further replanning for 0.8 s; future camera rays follow that candidate with bounded yaw. Privileged geometry used only for labels. Current-map validator and frame timestamps preserved.",
+  "limitations": "Static ideal geometry, no controller error, finite 0.8 s future observation window, four sampled candidates per selected state; these are supervised branch labels, not complete RL returns.",
+  "label_events": "future_invalidations.json",
+  "records_format": "training-index-v1",
+  "records_original_sha256": "0d5f9da72889b0623d95a165b2a779f6dfda15429590abc9cb0558f8d77e28fb",
+  "records_note": "Compact split/time/provenance index. Full queries and raw parent replays were removed under the retention policy; this package supports retraining, not reconstructing all original observations.",
+  "independent_test_maps": [
+    5401,
+    5402,
+    5403,
+    5404
+  ],
+  "base_prefix_arrays_verified": true
+}

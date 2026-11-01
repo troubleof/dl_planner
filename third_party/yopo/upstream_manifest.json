@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/TJU-Aerial-Robotics/YOPO",
+  "branch": "YOPO-Simple",
+  "commit": "bd8a7f91953cfef9f1aa9a48d7ff0ab7bceee132",
+  "files": {
+    "LICENSE": "190628e01bd182aa8fc644706d6ff81824438cb6f35b788788d7403ce1aabadd",
+    "README.md": "1ce9fea6962a14472fc638dfbfda782bbd17eba15916be6060088e2727549334",
+    "YOPO/policy/yopo_network.py": "e2a0b05c6bc4cf728dfd6c787eab86fbe0779bc5ef1c5061dfdffdfe19732b14",
+    "YOPO/policy/state_transform.py": "e542dfc4ca715aeb9d8ca375c373e34d845f901d9bdfeb089600a9865079d48d",
+    "YOPO/policy/primitive.py": "da56da6726dce2271547035e7a687229fc83ba53ad9599658dc42d7819deaebd",
+    "YOPO/policy/models/backbone.py": "1943b5658cad2d7a47aefbec01261084b183adcbdd641f4ed7663cb43c860266",
+    "YOPO/policy/models/head.py": "62419b476bfb369078d07bf8dbe62416c8a1cd9e6d26278ff82e746a89140da3",
+    "YOPO/policy/models/resnet.py": "4f6771cdf0eaae0b573479cb4a347f16526255a26931c82abc397d13007a6d56",
+    "YOPO/config/config.py": "1b22373c893701d599f30b5899d460025e8e323e30ee2ab14769912debd39407",
+    "YOPO/config/traj_opt.yaml": "c8dae0ea9b21c60de9abce85e3ceecfbf0e3cf0ef56a5a8afab9743e788dc21f",
+    "YOPO/saved/YOPO_1/epoch50.pth": "09ec31094ed83e09702efc1facf18076564ebbe1afc164960c41036e16ba229f"
+  }
+}

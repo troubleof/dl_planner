@@ -1,0 +1,60 @@
+{
+  "format": "range_trajectory_v1",
+  "passed": true,
+  "models": [
+    {
+      "seed": 11,
+      "observations_checked": 399,
+      "max_abs_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ranking_differences": 0,
+      "artifact_sha256": "7453006bc5070c100a72370bdb37c73a231c44d85d67e910837c0b4f94f1a2c5",
+      "source_weight_sha256": "507bea065e7be1253796141f824785ce20f7ac8681ebde623cc3cf79e61240a1",
+      "bytes": 249048,
+      "single_thread_forward_ms": {
+        "p50": 0.06972999999277363,
+        "p95": 0.0856549999966205
+      },
+      "timing_scope": "CPU forward only, not full navigation latency"
+    },
+    {
+      "seed": 22,
+      "observations_checked": 399,
+      "max_abs_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ranking_differences": 0,
+      "artifact_sha256": "830f1b87af166ca3e13d54e60b88f11f2648ec040299ac7fed04bb4127d5a996",
+      "source_weight_sha256": "f3ca1c633058497559d9f9b01f0e2138676c99ed6708b37c40d98d94c22ee58e",
+      "bytes": 249838,
+      "single_thread_forward_ms": {
+        "p50": 0.07004699999413333,
+        "p95": 0.08663339998804531
+      },
+      "timing_scope": "CPU forward only, not full navigation latency"
+    },
+    {
+      "seed": 33,
+      "observations_checked": 399,
+      "max_abs_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ranking_differences": 0,
+      "artifact_sha256": "31902ae0458e66f324110e9f4d24b8b3c0383d759616213e3e92d8c912fa1dd8",
+      "source_weight_sha256": "003cdfa90349b4886e05f4d94fc97e26ede0f949897cd70ead78046c95a88f99",
+      "bytes": 249838,
+      "single_thread_forward_ms": {
+        "p50": 0.07252700000037748,
+        "p95": 0.0879461000096171
+      },
+      "timing_scope": "CPU forward only, not full navigation latency"
+    }
+  ]
+}

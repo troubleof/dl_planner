@@ -1,0 +1,155 @@
+[
+  {
+    "name": "mlp11",
+    "seed": 11,
+    "kind": "mlp",
+    "chosen_epoch": 51,
+    "parameters": 8324,
+    "validation": {
+      "loss": 0.29439337362971485,
+      "brier": 0.11137895286083221,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.041237113402061855,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 3.6427622520000114,
+    "weight_sha256": "f65a57e751063feea6f28a48d103ebf29cfac733bad4778aff33e71ee4b7b4e9"
+  },
+  {
+    "name": "mlp22",
+    "seed": 22,
+    "kind": "mlp",
+    "chosen_epoch": 55,
+    "parameters": 8324,
+    "validation": {
+      "loss": 0.310242790775963,
+      "brier": 0.1146816685795784,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.44329896907216493,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 4.2938978980000115,
+    "weight_sha256": "44e13cdfd724d215ec0f0e043f2afc17f88011d62775586e7b11cfd7ee26cb11"
+  },
+  {
+    "name": "mlp33",
+    "seed": 33,
+    "kind": "mlp",
+    "chosen_epoch": 59,
+    "parameters": 8324,
+    "validation": {
+      "loss": 0.29471445243947114,
+      "brier": 0.10724470764398575,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.16494845360824742,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 3.713137273000001,
+    "weight_sha256": "10f175bb89f14df48f93342075a1967c4e6e1f628a7eccd208a0a75ca749c76c"
+  },
+  {
+    "name": "spatial11",
+    "seed": 11,
+    "kind": "spatial",
+    "chosen_epoch": 47,
+    "parameters": 26088,
+    "validation": {
+      "loss": 0.29580427809983867,
+      "brier": 0.11842561513185501,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.5154639175257731,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 15.038922638000003,
+    "weight_sha256": "8e4b3f5ae9732ec572e36eb006ccd32b9966b9d544093a29f0bef125143bdb46"
+  },
+  {
+    "name": "spatial22",
+    "seed": 22,
+    "kind": "spatial",
+    "chosen_epoch": 45,
+    "parameters": 26088,
+    "validation": {
+      "loss": 0.3159467440239991,
+      "brier": 0.12772764265537262,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.44329896907216493,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 13.749831288999985,
+    "weight_sha256": "bf662a75cc58272e177fabf66833ff2dfefdbb43bb2ff810cbe60ed9b6596c35"
+  },
+  {
+    "name": "spatial33",
+    "seed": 33,
+    "kind": "spatial",
+    "chosen_epoch": 59,
+    "parameters": 26088,
+    "validation": {
+      "loss": 0.3095900081569635,
+      "brier": 0.14401277899742126,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.5670103092783505,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 13.627999825000018,
+    "weight_sha256": "0bfa49a0c072666007ba3b57093457e43848da71395b164e72f93eb51772e22d"
+  },
+  {
+    "name": "temporal11",
+    "seed": 11,
+    "kind": "temporal",
+    "chosen_epoch": 29,
+    "parameters": 50808,
+    "validation": {
+      "loss": 0.4198140931091731,
+      "brier": 0.16016946732997894,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.6907216494845361,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 31.60290446800002,
+    "weight_sha256": "b8c21dd4d8654c554dde7510ac652776ff0903a26c0d0c4937b48ebd19fa9554"
+  },
+  {
+    "name": "temporal22",
+    "seed": 22,
+    "kind": "temporal",
+    "chosen_epoch": 47,
+    "parameters": 50808,
+    "validation": {
+      "loss": 0.3510769881968257,
+      "brier": 0.14199304580688477,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.6391752577319587,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 25.04649220700003,
+    "weight_sha256": "4d7baaeaf3f5d2a234f3d20474f33c4e52e16972445a0722fc54708131b1292f"
+  },
+  {
+    "name": "temporal33",
+    "seed": 33,
+    "kind": "temporal",
+    "chosen_epoch": 43,
+    "parameters": 50808,
+    "validation": {
+      "loss": 0.41831188205676745,
+      "brier": 0.1480139046907425,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.10309278350515463,
+      "known_selected": 79,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 25.413024664000034,
+    "weight_sha256": "12159279b57fcd606d831b55c51b4b3afdcb6a764d49412b788d8d76e3b5cb51"
+  }
+]

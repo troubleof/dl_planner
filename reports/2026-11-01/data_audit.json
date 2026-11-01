@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "states": 1027,
+  "train_rows": 869,
+  "validation_rows": 158,
+  "train_maps": [
+    0,
+    3101,
+    3102,
+    3103,
+    3104,
+    3105,
+    3106,
+    4482,
+    4483,
+    5101,
+    5102,
+    5103,
+    5104,
+    5105,
+    5106
+  ],
+  "validation_maps": [
+    3201,
+    3202,
+    4382
+  ],
+  "independent_test_maps": [
+    5401,
+    5402,
+    5403,
+    5404
+  ],
+  "candidate_branch_rollouts": 200,
+  "future_invalid_branches": 27,
+  "branch_input_arrays_identical_to_received_parent": 1000,
+  "future_clouds_checked": 746,
+  "out_of_order_arrival_pairs": 9,
+  "known_logged_vs_own_view_comparisons": 177,
+  "own_view_changed_final_labels": 1,
+  "own_view_completed_censored_labels": 23,
+  "current_valid_candidates": 23784,
+  "future_negative_label_slots": 565,
+  "states_with_future_negative": 43,
+  "effective_supervision_hash": "fb4d242a20fa7de9cfe7c5b1fc5159ff73b7668350b71a21900d645a886289ff",
+  "limitations": "Label slots and branched rows are correlated, not independent map trials. Labels certify finite map consistency only, not true whole-body safety."
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "spatialnow11",
+    "seed": 11,
+    "kind": "spatial",
+    "chosen_epoch": 55,
+    "parameters": 26088,
+    "validation": {
+      "loss": 0.3594390210471576,
+      "brier": 0.09217876940965652,
+      "current_valid_future_negative": 97,
+      "negative_recall_at_half": 0.030927835051546393,
+      "known_selected": 78,
+      "selected_future_invalid": 2
+    },
+    "wall_s": 13.276202361000003,
+    "weight_sha256": "e005e3b81f962547396cd4c0f10922636573182f3a3b31065b2b8e8d8787373b"
+  }
+]

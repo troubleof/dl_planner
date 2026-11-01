@@ -1,0 +1,178 @@
+[
+  {
+    "case": "forest_5404_rog_short_test",
+    "policy": "short",
+    "backend": "rog",
+    "time": 12.63,
+    "position": [
+      3.07247777642115,
+      1.6855320616204486,
+      2.4999999999999996
+    ],
+    "velocity": [
+      0.24380108431326364,
+      -1.0165411521332708,
+      0.0
+    ],
+    "true_surface_distance": 0.3232186448084398,
+    "planning_radius": 0.3272634126602354,
+    "envelope_gap": -0.004044767851795583,
+    "closest_obstacle": {
+      "kind": "cylinder",
+      "xy": [
+        2.5686364180937193,
+        1.2909107128402493
+      ],
+      "radius": 0.31676738884724415,
+      "z": [
+        0.0,
+        5.0
+      ]
+    },
+    "centre_map_cell": [
+      0,
+      0
+    ],
+    "neighbour_unknown": 7,
+    "neighbour_inflated": 9,
+    "latest_fused_stamp": 12.6,
+    "latest_fused_origin": [
+      3.0662142583078853,
+      1.7168996331217448,
+      2.5
+    ],
+    "last_cloud_request_t": 12.61
+  },
+  {
+    "case": "forest_5404_rog_short_recover_test",
+    "policy": "short_recover",
+    "backend": "rog",
+    "time": 12.63,
+    "position": [
+      3.07247777642115,
+      1.6855320616204486,
+      2.4999999999999996
+    ],
+    "velocity": [
+      0.24380108431326364,
+      -1.0165411521332708,
+      0.0
+    ],
+    "true_surface_distance": 0.3232186448084398,
+    "planning_radius": 0.3272634126602354,
+    "envelope_gap": -0.004044767851795583,
+    "closest_obstacle": {
+      "kind": "cylinder",
+      "xy": [
+        2.5686364180937193,
+        1.2909107128402493
+      ],
+      "radius": 0.31676738884724415,
+      "z": [
+        0.0,
+        5.0
+      ]
+    },
+    "centre_map_cell": [
+      0,
+      0
+    ],
+    "neighbour_unknown": 7,
+    "neighbour_inflated": 9,
+    "latest_fused_stamp": 12.6,
+    "latest_fused_origin": [
+      3.0662142583078853,
+      1.7168996331217448,
+      2.5
+    ],
+    "last_cloud_request_t": 12.61
+  },
+  {
+    "case": "forest_5401_ego_short_recover_test",
+    "policy": "short_recover",
+    "backend": "ego",
+    "time": 10.65,
+    "position": [
+      -0.1324835315376567,
+      1.4886835345214031,
+      2.5
+    ],
+    "velocity": [
+      -0.3153734116202052,
+      -0.7120060328975848,
+      -3.494079600410027e-15
+    ],
+    "true_surface_distance": 0.3261441333809083,
+    "planning_radius": 0.3272634126602354,
+    "envelope_gap": -0.00111927927932709,
+    "closest_obstacle": {
+      "kind": "cylinder",
+      "xy": [
+        -0.6751277401363804,
+        1.2213253492946867
+      ],
+      "radius": 0.27878820691299466,
+      "z": [
+        0.0,
+        5.0
+      ]
+    },
+    "centre_map_cell": [
+      0,
+      0
+    ],
+    "neighbour_unknown": 11,
+    "neighbour_inflated": 9,
+    "latest_fused_stamp": 10.6,
+    "latest_fused_origin": [
+      -0.11542512026568894,
+      1.5254240620505153,
+      2.5000000000000004
+    ],
+    "last_cloud_request_t": 10.61
+  },
+  {
+    "case": "forest_5403_ego_temporal11_test",
+    "policy": "temporal11",
+    "backend": "ego",
+    "time": 11.6,
+    "position": [
+      1.1779554614596772,
+      -2.239259484381607,
+      2.4999999999999987
+    ],
+    "velocity": [
+      -0.05559800525952606,
+      0.28116300732502636,
+      -1.0460137206087461e-15
+    ],
+    "true_surface_distance": 0.32541725699901336,
+    "planning_radius": 0.3272634126602354,
+    "envelope_gap": -0.0018461556612220376,
+    "closest_obstacle": {
+      "kind": "cylinder",
+      "xy": [
+        0.7826103853730677,
+        -1.8696592560780432
+      ],
+      "radius": 0.21578700938104164,
+      "z": [
+        0.0,
+        5.0
+      ]
+    },
+    "centre_map_cell": [
+      0,
+      0
+    ],
+    "neighbour_unknown": 7,
+    "neighbour_inflated": 9,
+    "latest_fused_stamp": 11.4,
+    "latest_fused_origin": [
+      1.1703155459682633,
+      -2.347798455813883,
+      2.4999999999999996
+    ],
+    "last_cloud_request_t": 11.43
+  }
+]

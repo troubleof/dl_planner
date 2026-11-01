@@ -1,0 +1,19 @@
+[
+  {
+    "name": "spatialbase11",
+    "seed": 11,
+    "kind": "spatial",
+    "chosen_epoch": 58,
+    "parameters": 26088,
+    "validation": {
+      "loss": 0.21811658631418354,
+      "brier": 0.12129940092563629,
+      "current_valid_future_negative": 86,
+      "negative_recall_at_half": 0.5581395348837209,
+      "known_selected": 73,
+      "selected_future_invalid": 1
+    },
+    "wall_s": 11.652390177999962,
+    "weight_sha256": "d75f9c046bb41ac22ab365e583371c2eef212552acc5989beab84204fc3096e5"
+  }
+]

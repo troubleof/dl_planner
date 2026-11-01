@@ -1,0 +1,35 @@
+rog_map:
+  resolution: 0.1
+  inflation_resolution: 0.1
+  inflation_step: 4
+  unk_inflation_en: false
+  map_size: [20.0, 12.0, 5.0]
+  fix_map_origin: [0.0, 0.0, 2.5]
+  map_sliding:
+    enable: false
+    threshold: 1.0
+  virtual_ground_height: 0.0
+  virtual_ceil_height: 5.0
+  point_filt_num: 1
+  intensity_thresh: -1.0
+  load_pcd_en: false
+  frontier_extraction_en: false
+  ros_callback:
+    enable: false
+  visualization:
+    enable: false
+    range: [20.0, 12.0, 5.0]
+  esdf:
+    enable: false
+  raycasting:
+    enable: true
+    batch_update_size: 1
+    unk_thresh: 1.0
+    p_hit: 0.9
+    p_miss: 0.35
+    p_min: 0.12
+    p_max: 0.97
+    p_occ: 0.8
+    p_free: 0.3
+    ray_range: [0.0, 8.0]
+    local_update_box: [30.0, 30.0, 10.0]

@@ -1,0 +1,6783 @@
+[
+  {
+    "state": 11,
+    "candidate": 2,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.26,
+    "lead": 0.25,
+    "map_stamp": 6,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": [
+            [
+              6.26,
+              6.289999999999999
+            ]
+          ]
+        },
+        {
+          "start": 6.329999999999999,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.26
+    }
+  },
+  {
+    "state": 11,
+    "candidate": 17,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.329999999999999,
+    "lead": 0.3199999999999994,
+    "map_stamp": 6,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.329999999999999,
+          "invalid_intervals": [
+            [
+              6.329999999999999,
+              6.354726027397259
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.329999999999999
+    }
+  },
+  {
+    "state": 12,
+    "candidate": 1,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.315,
+    "lead": 0.3050000000000006,
+    "map_stamp": 6,
+    "report": {
+      "id": 1,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.03,
+          "invalid_intervals": [
+            [
+              6.315,
+              6.3549999999999995
+            ]
+          ]
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.315
+    }
+  },
+  {
+    "state": 12,
+    "candidate": 2,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.315,
+    "lead": 0.3050000000000006,
+    "map_stamp": 6,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.03,
+          "invalid_intervals": [
+            [
+              6.315,
+              6.3549999999999995
+            ]
+          ]
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.315
+    }
+  },
+  {
+    "state": 12,
+    "candidate": 16,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.33,
+    "lead": 0.3200000000000003,
+    "map_stamp": 6,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.03,
+          "invalid_intervals": [
+            [
+              6.33,
+              6.365
+            ]
+          ]
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.33
+    }
+  },
+  {
+    "state": 12,
+    "candidate": 17,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.33,
+    "lead": 0.3200000000000003,
+    "map_stamp": 6,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.03,
+          "invalid_intervals": [
+            [
+              6.33,
+              6.365
+            ]
+          ]
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.33
+    }
+  },
+  {
+    "state": 12,
+    "candidate": 30,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.455,
+    "lead": 0.4450000000000003,
+    "map_stamp": 6,
+    "report": {
+      "id": 30,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.03,
+          "invalid_intervals": [
+            [
+              6.455,
+              6.63
+            ]
+          ]
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": [
+            [
+              6.63,
+              6.64486301369863
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.455
+    }
+  },
+  {
+    "state": 12,
+    "candidate": 31,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.34,
+    "lead": 0.33000000000000007,
+    "map_stamp": 6,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.03,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.365
+            ]
+          ]
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.34
+    }
+  },
+  {
+    "state": 12,
+    "candidate": 32,
+    "observed_at": 6.01,
+    "first_invalid_time": 6.34,
+    "lead": 0.33000000000000007,
+    "map_stamp": 6,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 5.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.03,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.365
+            ]
+          ]
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.34
+    }
+  },
+  {
+    "state": 262,
+    "candidate": 32,
+    "observed_at": 12.61,
+    "first_invalid_time": 12.946123595505618,
+    "lead": 0.33612359550561877,
+    "map_stamp": 12.6,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 12.450000000000001,
+          "invalid_intervals": [
+            [
+              12.946123595505618,
+              12.95612359550562
+            ]
+          ]
+        },
+        {
+          "start": 13.05,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 12.946123595505618
+    }
+  },
+  {
+    "state": 702,
+    "candidate": 1,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.794999999999999,
+    "lead": 0.3849999999999989,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 1,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": [
+            [
+              7.794999999999999,
+              7.829999999999999
+            ]
+          ]
+        },
+        {
+          "start": 7.829999999999999,
+          "invalid_intervals": [
+            [
+              7.829999999999999,
+              8.19
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.794999999999999
+    }
+  },
+  {
+    "state": 702,
+    "candidate": 2,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.794999999999999,
+    "lead": 0.3849999999999989,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": [
+            [
+              7.794999999999999,
+              7.829999999999999
+            ]
+          ]
+        },
+        {
+          "start": 7.829999999999999,
+          "invalid_intervals": [
+            [
+              7.829999999999999,
+              8.19
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.794999999999999
+    }
+  },
+  {
+    "state": 702,
+    "candidate": 16,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.85458904109589,
+    "lead": 0.4445890410958899,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.829999999999999,
+          "invalid_intervals": [
+            [
+              7.85458904109589,
+              8.19
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.85458904109589
+    }
+  },
+  {
+    "state": 702,
+    "candidate": 17,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.85458904109589,
+    "lead": 0.4445890410958899,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.829999999999999,
+          "invalid_intervals": [
+            [
+              7.85458904109589,
+              8.19
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.85458904109589
+    }
+  },
+  {
+    "state": 702,
+    "candidate": 31,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.889109589041095,
+    "lead": 0.47910958904109524,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.829999999999999,
+          "invalid_intervals": [
+            [
+              7.889109589041095,
+              8.19
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.889109589041095
+    }
+  },
+  {
+    "state": 702,
+    "candidate": 32,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.889109589041095,
+    "lead": 0.47910958904109524,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.829999999999999,
+          "invalid_intervals": [
+            [
+              7.889109589041095,
+              8.19
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.889109589041095
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 0,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.87706611570248,
+    "lead": 0.4670661157024796,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 0,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.87706611570248,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.87706611570248
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 1,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.748140495867769,
+    "lead": 0.3381404958677692,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 1,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.748140495867769,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.748140495867769
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 2,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.748140495867769,
+    "lead": 0.3381404958677692,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.748140495867769,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.748140495867769
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 15,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.896900826446282,
+    "lead": 0.4869008264462815,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 15,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.896900826446282,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.896900826446282
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 16,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.7729338842975215,
+    "lead": 0.3629338842975214,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.7729338842975215,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.7729338842975215
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 17,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.7729338842975215,
+    "lead": 0.3629338842975214,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.7729338842975215,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.7729338842975215
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 19,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.782851239669422,
+    "lead": 0.3728512396694219,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 19,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.782851239669422,
+              7.802768595041322
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.782851239669422
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 30,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.891942148760331,
+    "lead": 0.48194214876033126,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 30,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.891942148760331,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.891942148760331
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 31,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.792768595041323,
+    "lead": 0.38276859504132243,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.792768595041323,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.792768595041323
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 32,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.792768595041323,
+    "lead": 0.38276859504132243,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.792768595041323,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.49
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.792768595041323
+    }
+  },
+  {
+    "state": 703,
+    "candidate": 34,
+    "observed_at": 7.41,
+    "first_invalid_time": 7.802685950413224,
+    "lead": 0.39268595041322385,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 34,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              7.802685950413224,
+              7.842438016528926
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.802685950413224
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 0,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.51,
+    "lead": 0.27999999999999936,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 0,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.51,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.09
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.51
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 1,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.35,
+    "lead": 0.11999999999999922,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 1,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.35,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.09
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.35
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 2,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.355,
+    "lead": 0.125,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.355,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.09
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.355
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 7,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.36,
+    "lead": 0.129999999999999,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 7,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.36,
+              8.4
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.36
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 8,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.36,
+    "lead": 0.129999999999999,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 8,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.36,
+              8.4
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.36
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 10,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.36,
+    "lead": 0.129999999999999,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 10,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.36,
+              8.4
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.36
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 11,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.36,
+    "lead": 0.129999999999999,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 11,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.36,
+              8.4
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.36
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 13,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.36,
+    "lead": 0.129999999999999,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 13,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.36,
+              8.4
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.36
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 14,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.36,
+    "lead": 0.129999999999999,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 14,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.36,
+              8.4
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.36
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 15,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.555,
+    "lead": 0.3249999999999993,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 15,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.555,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.09
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.555
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 16,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.379999999999999,
+    "lead": 0.14999999999999858,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.379999999999999,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.09
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.379999999999999
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 17,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.385,
+    "lead": 0.15499999999999936,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.385,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.21
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.385
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 30,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.59,
+    "lead": 0.35999999999999943,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 30,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.59,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.09
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.59
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 31,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.41,
+    "lead": 0.17999999999999972,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.41,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.21
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.41
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 32,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.415,
+    "lead": 0.18499999999999872,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.415,
+              8.73
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": [
+            [
+              8.73,
+              9.21
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.415
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 37,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.424999999999999,
+    "lead": 0.1949999999999985,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 37,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.424999999999999,
+              8.505
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.424999999999999
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 38,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.424999999999999,
+    "lead": 0.1949999999999985,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 38,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.424999999999999,
+              8.505
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.424999999999999
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 40,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.424999999999999,
+    "lead": 0.1949999999999985,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 40,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.424999999999999,
+              8.505
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.424999999999999
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 41,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.424999999999999,
+    "lead": 0.1949999999999985,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 41,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.424999999999999,
+              8.505
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.424999999999999
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 43,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.424999999999999,
+    "lead": 0.1949999999999985,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 43,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.424999999999999,
+              8.505
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.424999999999999
+    }
+  },
+  {
+    "state": 717,
+    "candidate": 44,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.424999999999999,
+    "lead": 0.1949999999999985,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 44,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.424999999999999,
+              8.505
+            ]
+          ]
+        },
+        {
+          "start": 8.73,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.424999999999999
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 0,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 0,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              9.030000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": [
+            [
+              9.030000000000001,
+              9.39
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 1,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 1,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              9.030000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": [
+            [
+              9.030000000000001,
+              9.39
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 2,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              9.030000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": [
+            [
+              9.030000000000001,
+              9.075000000000001
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 6,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 6,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.765000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 7,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 7,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.685000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 8,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 8,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.685000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 9,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 9,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.765000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 10,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 10,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.685000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 11,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 11,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.685000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 12,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 12,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.765000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 13,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 13,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.685000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 14,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 14,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.685000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 15,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 15,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              9.030000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": [
+            [
+              9.030000000000001,
+              9.39
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 16,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              9.030000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": [
+            [
+              9.030000000000001,
+              9.39
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 17,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              9.020000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": [
+            [
+              9.09,
+              9.115000000000002
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 21,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 21,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.795000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 22,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 22,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.715000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 23,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 23,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.715000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 24,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 24,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.795000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 25,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 25,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.715000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 26,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 26,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.715000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 27,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 27,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.795000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 28,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 28,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.715000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 29,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 29,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.715000000000002
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 30,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 30,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              9.030000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": [
+            [
+              9.030000000000001,
+              9.39
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 31,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              9.030000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": [
+            [
+              9.030000000000001,
+              9.39
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 32,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.880000000000003
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 36,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 36,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.815000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 37,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 37,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.745000000000003
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 38,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 38,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.745000000000003
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 39,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 39,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.815000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 40,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 40,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.745000000000003
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 41,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 41,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.745000000000003
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 42,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 42,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.815000000000001
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 43,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 43,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.745000000000003
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 718,
+    "candidate": 44,
+    "observed_at": 8.23,
+    "first_invalid_time": 8.351829268292683,
+    "lead": 0.12182926829268226,
+    "map_stamp": 8.2,
+    "report": {
+      "id": 44,
+      "segments": [
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.351829268292683,
+              8.430000000000001
+            ]
+          ]
+        },
+        {
+          "start": 8.430000000000001,
+          "invalid_intervals": [
+            [
+              8.430000000000001,
+              8.745000000000003
+            ]
+          ]
+        },
+        {
+          "start": 9.030000000000001,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.351829268292683
+    }
+  },
+  {
+    "state": 732,
+    "candidate": 2,
+    "observed_at": 6.61,
+    "first_invalid_time": 7.373760330578512,
+    "lead": 0.7637603305785117,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 6.33,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": [
+            [
+              7.373760330578512,
+              7.577148760330578
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.373760330578512
+    }
+  },
+  {
+    "state": 732,
+    "candidate": 17,
+    "observed_at": 6.61,
+    "first_invalid_time": 7.497727272727273,
+    "lead": 0.8877272727272727,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 6.33,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.63,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": [
+            [
+              7.497727272727273,
+              7.83
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.497727272727273
+    }
+  },
+  {
+    "state": 746,
+    "candidate": 2,
+    "observed_at": 7.41,
+    "first_invalid_time": 8.125,
+    "lead": 0.7149999999999999,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": [
+            [
+              8.125,
+              8.13
+            ]
+          ]
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.13,
+              8.88
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.125
+    }
+  },
+  {
+    "state": 746,
+    "candidate": 17,
+    "observed_at": 7.41,
+    "first_invalid_time": 8.205,
+    "lead": 0.7949999999999999,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": []
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.205,
+              8.73
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.205
+    }
+  },
+  {
+    "state": 746,
+    "candidate": 32,
+    "observed_at": 7.41,
+    "first_invalid_time": 8.377371134020619,
+    "lead": 0.9673711340206186,
+    "map_stamp": 7.4,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 7.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.53,
+          "invalid_intervals": []
+        },
+        {
+          "start": 8.13,
+          "invalid_intervals": [
+            [
+              8.377371134020619,
+              8.610000000000001
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 8.377371134020619
+    }
+  },
+  {
+    "state": 761,
+    "candidate": 2,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.305,
+    "lead": 0.29499999999999993,
+    "map_stamp": 9,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": [
+            [
+              9.305,
+              9.35
+            ]
+          ]
+        },
+        {
+          "start": 9.35,
+          "invalid_intervals": [
+            [
+              9.35,
+              10.1
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.305
+    }
+  },
+  {
+    "state": 761,
+    "candidate": 17,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.35,
+    "lead": 0.33999999999999986,
+    "map_stamp": 9,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.35,
+          "invalid_intervals": [
+            [
+              9.35,
+              9.95
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.35
+    }
+  },
+  {
+    "state": 761,
+    "candidate": 32,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.379999999999999,
+    "lead": 0.3699999999999992,
+    "map_stamp": 9,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.35,
+          "invalid_intervals": [
+            [
+              9.379999999999999,
+              9.95
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.379999999999999
+    }
+  },
+  {
+    "state": 762,
+    "candidate": 1,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.334999999999999,
+    "lead": 0.3249999999999993,
+    "map_stamp": 9,
+    "report": {
+      "id": 1,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.05,
+          "invalid_intervals": [
+            [
+              9.334999999999999,
+              9.65
+            ]
+          ]
+        },
+        {
+          "start": 9.65,
+          "invalid_intervals": [
+            [
+              9.65,
+              10.01
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.334999999999999
+    }
+  },
+  {
+    "state": 762,
+    "candidate": 2,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.334999999999999,
+    "lead": 0.3249999999999993,
+    "map_stamp": 9,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.05,
+          "invalid_intervals": [
+            [
+              9.334999999999999,
+              9.65
+            ]
+          ]
+        },
+        {
+          "start": 9.65,
+          "invalid_intervals": [
+            [
+              9.65,
+              10.4
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.334999999999999
+    }
+  },
+  {
+    "state": 762,
+    "candidate": 16,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.355,
+    "lead": 0.34500000000000064,
+    "map_stamp": 9,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.05,
+          "invalid_intervals": [
+            [
+              9.355,
+              9.65
+            ]
+          ]
+        },
+        {
+          "start": 9.65,
+          "invalid_intervals": [
+            [
+              9.65,
+              10.01
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.355
+    }
+  },
+  {
+    "state": 762,
+    "candidate": 17,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.345,
+    "lead": 0.33500000000000085,
+    "map_stamp": 9,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.05,
+          "invalid_intervals": [
+            [
+              9.345,
+              9.65
+            ]
+          ]
+        },
+        {
+          "start": 9.65,
+          "invalid_intervals": [
+            [
+              9.65,
+              10.25
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.345
+    }
+  },
+  {
+    "state": 762,
+    "candidate": 31,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.37,
+    "lead": 0.35999999999999943,
+    "map_stamp": 9,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.05,
+          "invalid_intervals": [
+            [
+              9.37,
+              9.65
+            ]
+          ]
+        },
+        {
+          "start": 9.65,
+          "invalid_intervals": [
+            [
+              9.65,
+              10.01
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.37
+    }
+  },
+  {
+    "state": 762,
+    "candidate": 32,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.35,
+    "lead": 0.33999999999999986,
+    "map_stamp": 9,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.05,
+          "invalid_intervals": [
+            [
+              9.35,
+              9.65
+            ]
+          ]
+        },
+        {
+          "start": 9.65,
+          "invalid_intervals": [
+            [
+              9.65,
+              10.25
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.35
+    }
+  },
+  {
+    "state": 762,
+    "candidate": 37,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.42,
+    "lead": 0.41000000000000014,
+    "map_stamp": 9,
+    "report": {
+      "id": 37,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.05,
+          "invalid_intervals": [
+            [
+              9.42,
+              9.48
+            ]
+          ]
+        },
+        {
+          "start": 9.65,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.42
+    }
+  },
+  {
+    "state": 762,
+    "candidate": 38,
+    "observed_at": 9.01,
+    "first_invalid_time": 9.42,
+    "lead": 0.41000000000000014,
+    "map_stamp": 9,
+    "report": {
+      "id": 38,
+      "segments": [
+        {
+          "start": 8.75,
+          "invalid_intervals": []
+        },
+        {
+          "start": 9.05,
+          "invalid_intervals": [
+            [
+              9.42,
+              9.48
+            ]
+          ]
+        },
+        {
+          "start": 9.65,
+          "invalid_intervals": []
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 9.42
+    }
+  },
+  {
+    "state": 789,
+    "candidate": 2,
+    "observed_at": 6.61,
+    "first_invalid_time": 7.204999999999999,
+    "lead": 0.5949999999999989,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 6.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.7299999999999995,
+          "invalid_intervals": [
+            [
+              7.204999999999999,
+              7.329999999999999
+            ]
+          ]
+        },
+        {
+          "start": 7.329999999999999,
+          "invalid_intervals": [
+            [
+              7.329999999999999,
+              8.29
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.204999999999999
+    }
+  },
+  {
+    "state": 789,
+    "candidate": 16,
+    "observed_at": 6.61,
+    "first_invalid_time": 7.1,
+    "lead": 0.4899999999999993,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 6.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.7299999999999995,
+          "invalid_intervals": [
+            [
+              7.1,
+              7.329999999999999
+            ]
+          ]
+        },
+        {
+          "start": 7.329999999999999,
+          "invalid_intervals": [
+            [
+              7.329999999999999,
+              7.809999999999999
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.1
+    }
+  },
+  {
+    "state": 789,
+    "candidate": 17,
+    "observed_at": 6.61,
+    "first_invalid_time": 7.299999999999999,
+    "lead": 0.6899999999999986,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 6.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.7299999999999995,
+          "invalid_intervals": [
+            [
+              7.299999999999999,
+              7.329999999999999
+            ]
+          ]
+        },
+        {
+          "start": 7.329999999999999,
+          "invalid_intervals": [
+            [
+              7.329999999999999,
+              8.079999999999998
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.299999999999999
+    }
+  },
+  {
+    "state": 789,
+    "candidate": 31,
+    "observed_at": 6.61,
+    "first_invalid_time": 7.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 6.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.7299999999999995,
+          "invalid_intervals": [
+            [
+              7.175,
+              7.329999999999999
+            ]
+          ]
+        },
+        {
+          "start": 7.329999999999999,
+          "invalid_intervals": [
+            [
+              7.329999999999999,
+              7.93
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.175
+    }
+  },
+  {
+    "state": 789,
+    "candidate": 32,
+    "observed_at": 6.61,
+    "first_invalid_time": 7.424999999999999,
+    "lead": 0.8149999999999986,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 6.2299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.7299999999999995,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.329999999999999,
+          "invalid_intervals": [
+            [
+              7.424999999999999,
+              7.809999999999999
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.424999999999999
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 0,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.025,
+    "lead": 0.41500000000000004,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 0,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.025,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.025
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 2,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.01,
+    "lead": 0.39999999999999947,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.01,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              7.3
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.01
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 3,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 3,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 4,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 4,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 5,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 5,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 6,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 6,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 7,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 7,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 8,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 8,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 9,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 9,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 10,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 10,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 11,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 11,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 12,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 12,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 13,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 13,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 14,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.085,
+    "lead": 0.47499999999999964,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 14,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.085,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.085
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 15,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.065,
+    "lead": 0.45500000000000007,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 15,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.065,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.065
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 16,
+    "observed_at": 5.61,
+    "first_invalid_time": 5.97,
+    "lead": 0.35999999999999943,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              5.97,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 5.97
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 17,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.045,
+    "lead": 0.4349999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.045,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              7.09
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.045
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 18,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 18,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 19,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 19,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 20,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 20,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 21,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 21,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 22,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 22,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 23,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 23,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 24,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 24,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 25,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 25,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 26,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 26,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 27,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 27,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 28,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 28,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 29,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.13,
+    "lead": 0.5199999999999996,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 29,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.13,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.13
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 30,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.11,
+    "lead": 0.5,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 30,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.11,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.11
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 31,
+    "observed_at": 5.61,
+    "first_invalid_time": 6,
+    "lead": 0.3899999999999997,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.82
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 32,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.075,
+    "lead": 0.46499999999999986,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.075,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.82
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.075
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 33,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 33,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 34,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 34,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 35,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 35,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 36,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 36,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 37,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 37,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 38,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 38,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 39,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 39,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 40,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 40,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 41,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 41,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 42,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 42,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 43,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 43,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 802,
+    "candidate": 44,
+    "observed_at": 5.61,
+    "first_invalid_time": 6.175,
+    "lead": 0.5649999999999995,
+    "map_stamp": 5.6,
+    "report": {
+      "id": 44,
+      "segments": [
+        {
+          "start": 5.43,
+          "invalid_intervals": []
+        },
+        {
+          "start": 5.74,
+          "invalid_intervals": [
+            [
+              6.175,
+              6.34
+            ]
+          ]
+        },
+        {
+          "start": 6.34,
+          "invalid_intervals": [
+            [
+              6.34,
+              6.7
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 6.175
+    }
+  },
+  {
+    "state": 808,
+    "candidate": 8,
+    "observed_at": 2.47,
+    "first_invalid_time": 3.335,
+    "lead": 0.8649999999999998,
+    "map_stamp": 2.4,
+    "report": {
+      "id": 8,
+      "segments": [
+        {
+          "start": 2.12,
+          "invalid_intervals": []
+        },
+        {
+          "start": 2.6199999999999997,
+          "invalid_intervals": []
+        },
+        {
+          "start": 3.2199999999999998,
+          "invalid_intervals": [
+            [
+              3.335,
+              3.4599999999999995
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 3.335
+    }
+  },
+  {
+    "state": 808,
+    "candidate": 23,
+    "observed_at": 2.47,
+    "first_invalid_time": 3.5749999999999997,
+    "lead": 1.1049999999999995,
+    "map_stamp": 2.4,
+    "report": {
+      "id": 23,
+      "segments": [
+        {
+          "start": 2.12,
+          "invalid_intervals": []
+        },
+        {
+          "start": 2.6199999999999997,
+          "invalid_intervals": []
+        },
+        {
+          "start": 3.2199999999999998,
+          "invalid_intervals": [
+            [
+              3.5749999999999997,
+              3.9699999999999998
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 3.5749999999999997
+    }
+  },
+  {
+    "state": 816,
+    "candidate": 2,
+    "observed_at": 6.63,
+    "first_invalid_time": 7.31,
+    "lead": 0.6799999999999997,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 6.33,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.83,
+          "invalid_intervals": [
+            [
+              7.31,
+              7.43
+            ]
+          ]
+        },
+        {
+          "start": 7.43,
+          "invalid_intervals": [
+            [
+              7.43,
+              7.559352331606218
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.31
+    }
+  },
+  {
+    "state": 816,
+    "candidate": 16,
+    "observed_at": 6.63,
+    "first_invalid_time": 7.22,
+    "lead": 0.5899999999999999,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 6.33,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.83,
+          "invalid_intervals": [
+            [
+              7.22,
+              7.43
+            ]
+          ]
+        },
+        {
+          "start": 7.43,
+          "invalid_intervals": [
+            [
+              7.43,
+              7.79
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.22
+    }
+  },
+  {
+    "state": 816,
+    "candidate": 17,
+    "observed_at": 6.63,
+    "first_invalid_time": 7.405,
+    "lead": 0.7750000000000004,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 6.33,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.83,
+          "invalid_intervals": [
+            [
+              7.405,
+              7.43
+            ]
+          ]
+        },
+        {
+          "start": 7.43,
+          "invalid_intervals": [
+            [
+              7.43,
+              8.18
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.405
+    }
+  },
+  {
+    "state": 816,
+    "candidate": 31,
+    "observed_at": 6.63,
+    "first_invalid_time": 7.295,
+    "lead": 0.665,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 6.33,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.83,
+          "invalid_intervals": [
+            [
+              7.295,
+              7.43
+            ]
+          ]
+        },
+        {
+          "start": 7.43,
+          "invalid_intervals": [
+            [
+              7.43,
+              7.91
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.295
+    }
+  },
+  {
+    "state": 816,
+    "candidate": 32,
+    "observed_at": 6.63,
+    "first_invalid_time": 7.523969072164948,
+    "lead": 0.893969072164948,
+    "map_stamp": 6.6,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 6.33,
+          "invalid_intervals": []
+        },
+        {
+          "start": 6.83,
+          "invalid_intervals": []
+        },
+        {
+          "start": 7.43,
+          "invalid_intervals": [
+            [
+              7.523969072164948,
+              7.91
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 7.523969072164948
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 1,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.264999999999999,
+    "lead": 0.4549999999999983,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 1,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.264999999999999,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.264999999999999
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 2,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.36,
+    "lead": 0.5499999999999989,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 2,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.36,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.54
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.36
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 4,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.264999999999999,
+    "lead": 0.4549999999999983,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 4,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.264999999999999,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.264999999999999
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 5,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.36,
+    "lead": 0.5499999999999989,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 5,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.36,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.54
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.36
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 7,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.264999999999999,
+    "lead": 0.4549999999999983,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 7,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.264999999999999,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.264999999999999
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 8,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.36,
+    "lead": 0.5499999999999989,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 8,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.36,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.54
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.36
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 10,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.264999999999999,
+    "lead": 0.4549999999999983,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 10,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.264999999999999,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.264999999999999
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 11,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.36,
+    "lead": 0.5499999999999989,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 11,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.36,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.54
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.36
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 13,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.264999999999999,
+    "lead": 0.4549999999999983,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 13,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.264999999999999,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.264999999999999
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 14,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.36,
+    "lead": 0.5499999999999989,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 14,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.36,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.54
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.36
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 16,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.315,
+    "lead": 0.504999999999999,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 16,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.315,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.315
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 17,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.41,
+    "lead": 0.5999999999999996,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 17,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.41,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.33
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.41
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 19,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.315,
+    "lead": 0.504999999999999,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 19,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.315,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.315
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 20,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.41,
+    "lead": 0.5999999999999996,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 20,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.41,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.33
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.41
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 22,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.315,
+    "lead": 0.504999999999999,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 22,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.315,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.315
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 23,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.41,
+    "lead": 0.5999999999999996,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 23,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.41,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.33
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.41
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 25,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.315,
+    "lead": 0.504999999999999,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 25,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.315,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.315
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 26,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.41,
+    "lead": 0.5999999999999996,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 26,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.41,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.33
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.41
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 28,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.315,
+    "lead": 0.504999999999999,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 28,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.315,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              13.94
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.315
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 29,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.41,
+    "lead": 0.5999999999999996,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 29,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.41,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.33
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.41
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 31,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.365,
+    "lead": 0.5549999999999997,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 31,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.365,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.365
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 32,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.45,
+    "lead": 0.6399999999999988,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 32,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.45,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.45
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 34,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.365,
+    "lead": 0.5549999999999997,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 34,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.365,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.365
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 35,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.45,
+    "lead": 0.6399999999999988,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 35,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.45,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.45
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 37,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.365,
+    "lead": 0.5549999999999997,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 37,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.365,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.365
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 38,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.45,
+    "lead": 0.6399999999999988,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 38,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.45,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.45
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 40,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.365,
+    "lead": 0.5549999999999997,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 40,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.365,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.365
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 41,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.45,
+    "lead": 0.6399999999999988,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 41,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.45,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.45
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 43,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.365,
+    "lead": 0.5549999999999997,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 43,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.365,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.365
+    }
+  },
+  {
+    "state": 826,
+    "candidate": 44,
+    "observed_at": 12.81,
+    "first_invalid_time": 13.45,
+    "lead": 0.6399999999999988,
+    "map_stamp": 12.8,
+    "report": {
+      "id": 44,
+      "segments": [
+        {
+          "start": 12.680000000000001,
+          "invalid_intervals": []
+        },
+        {
+          "start": 12.98,
+          "invalid_intervals": [
+            [
+              13.45,
+              13.58
+            ]
+          ]
+        },
+        {
+          "start": 13.58,
+          "invalid_intervals": [
+            [
+              13.58,
+              14.06
+            ]
+          ]
+        }
+      ],
+      "ok": false,
+      "reason": "execution_schedule_invalid",
+      "first_invalid_time": 13.45
+    }
+  }
+]

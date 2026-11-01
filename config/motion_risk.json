@@ -1,0 +1,14 @@
+{
+  "format": "motion_risk_timed_v1",
+  "reaction_allowance_s": 0.2,
+  "braking_reference_mps2": 3.0,
+  "margin_scale_m": 3.0,
+  "label_horizon_s": 1.2,
+  "label_samples": 25,
+  "risk_weight": 0.6,
+  "recovery_weight": 0.4,
+  "plan_budget_ms": 100.0,
+  "frontend_budget_ms": 20.0,
+  "max_candidates": 15,
+  "semantics": "Directional braking features are heuristics, not guaranteed actuator capability or safety certificates. At handoff state, reaction allowance concerns subsequent intervention; capture age is not added again. Offline labels use received hits and current fused map only."
+}

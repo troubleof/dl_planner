@@ -1,0 +1,10 @@
+{
+  "source_run": "runs/train-rollouts-v1",
+  "samples": 399,
+  "label": "EGO/backup feasibility plus short-term progress surrogate",
+  "uses_scene_truth": false,
+  "split_by_map": true,
+  "action15": "repair",
+  "weights": "no YOPO initialization; small scorer trained from scratch",
+  "dataset_sha256": "f1d703b97e2157fa9a91630bffc670f52a046909e10aa869822ff47b29d740e5"
+}

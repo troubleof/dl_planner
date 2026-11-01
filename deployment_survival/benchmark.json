@@ -1,0 +1,64 @@
+{
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "torch": "2.4.1+cpu",
+  "cpu": "AMD Ryzen 9 7945HX with Radeon Graphics",
+  "threads": 1,
+  "candidates": 45,
+  "models": [
+    {
+      "kind": "mlp",
+      "parameters": 8324,
+      "weight_sha256": "f65a57e751063feea6f28a48d103ebf29cfac733bad4778aff33e71ee4b7b4e9",
+      "network_and_survival_ms": {
+        "p50": 0.04525800000010349,
+        "p95": 0.07131505008715064,
+        "p99": 0.0872488199502186,
+        "max": 0.8081729999958043
+      },
+      "torchscript_network_ms": {
+        "p50": 0.019019999967895274,
+        "p95": 0.030034500036890673,
+        "p99": 0.046840389981070985,
+        "max": 0.1124699999763834
+      },
+      "trace_error": 0.0
+    },
+    {
+      "kind": "spatial",
+      "parameters": 26088,
+      "weight_sha256": "8e4b3f5ae9732ec572e36eb006ccd32b9966b9d544093a29f0bef125143bdb46",
+      "network_and_survival_ms": {
+        "p50": 0.22910299998102346,
+        "p95": 0.28114949998325756,
+        "p99": 0.31672952994654213,
+        "max": 0.6150330000309623
+      },
+      "torchscript_network_ms": {
+        "p50": 0.1570270000001983,
+        "p95": 0.18458500002793696,
+        "p99": 0.20198310999262503,
+        "max": 0.22777200001655729
+      },
+      "trace_error": 0.0
+    },
+    {
+      "kind": "temporal",
+      "parameters": 50808,
+      "weight_sha256": "b8c21dd4d8654c554dde7510ac652776ff0903a26c0d0c4937b48ebd19fa9554",
+      "network_and_survival_ms": {
+        "p50": 0.38415799997437716,
+        "p95": 0.4585450499973831,
+        "p99": 0.5561301600243951,
+        "max": 1.978403999942202
+      },
+      "torchscript_network_ms": {
+        "p50": 0.288841499980208,
+        "p95": 0.32864599990602983,
+        "p99": 0.3550069999403149,
+        "max": 0.3698519999488781
+      },
+      "trace_error": 0.0
+    }
+  ],
+  "limitations": "Warm CPU-only microbenchmark on desktop; excludes depth acquisition/VIO/map fusion/context/RPC/publication/control. Full request timings come from closed-loop runs. Not an onboard real-time guarantee."
+}

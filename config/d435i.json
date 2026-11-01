@@ -1,0 +1,18 @@
+{
+  "camera": "RealSense D435i",
+  "suggested_capture": [848, 480, 30],
+  "simulation_grid": [106, 60],
+  "simulation_hfov_degrees": 87.0,
+  "simulation_vfov_degrees": 58.0,
+  "minimum_depth_m": 0.3,
+  "maximum_depth_m": 6.0,
+  "fusion_rate_hz": 5.0,
+  "downsample_block": 8,
+  "no_depth": "unknown; no ray and no occupied endpoint",
+  "simulation_only": "6 m cutoff is an experimental setting, not a hardware guaranteed range. Ideal sparse rays, fixed level forward camera, no stereo matching/noise/rolling pose dynamics. Real intrinsics, depth scale and camera-to-world at capture time must be supplied.",
+  "references": [
+    "https://www.intel.com/content/www/us/en/products/sku/190004/intel-realsense-depth-camera-d435i/specifications.html",
+    "https://github.com/realsenseai/librealsense/wiki/Projection-in-RealSense-SDK-2.0",
+    "https://github.com/realsenseai/librealsense/blob/master/doc/d435i.md"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "dataset_sha256": {
+    "runs/recovery-labels-v2": "8d3f98a6a846237e8086f2062e111db4c22127ab11575cfd42e2a765557f314f",
+    "runs/recovery-midpoints-v1": "caf0fbb2473c727d1f4435bae349b52e11d3d1f50624916c7ff1ae264c7c5603"
+  },
+  "protocols": [
+    {
+      "states": 57,
+      "branches": 228,
+      "horizon_s": 6.0,
+      "actions": [
+        "repair",
+        "fixed11",
+        "trajectory11",
+        "trajectory33"
+      ],
+      "continuation": "repair immediately after the first request; branch_horizon is not mission success",
+      "restoration_failures": [
+        {
+          "folder": "branches/s023_a0_init0",
+          "reason": "history differs at t=22.31: unknown -> no_known_route",
+          "before_branch": true
+        },
+        {
+          "folder": "branches/s034_a1_init0",
+          "reason": "history differs at t=10.6: refine_failed -> ok",
+          "before_branch": true
+        },
+        {
+          "folder": "branches/s037_a0_init0",
+          "reason": "history differs at t=7.53: ok -> ok",
+          "before_branch": true
+        },
+        {
+          "folder": "branches/s037_a0_init1",
+          "reason": "history differs at t=7.53: ok -> ok",
+          "before_branch": true
+        },
+        {
+          "folder": "branches/s037_a0_init2",
+          "reason": "history differs at t=7.53: ok -> ok",
+          "before_branch": true
+        },
+        {
+          "folder": "branches/s045_e5577fe5_a0_init0",
+          "reason": "history differs at t=14.82: ok -> ok",
+          "before_branch": true
+        },
+        {
+          "folder": "branches/s045_e5577fe5_a0_init1",
+          "reason": "history differs at t=14.82: ok -> ok",
+          "before_branch": true
+        },
+        {
+          "folder": "branches/s045_e5577fe5_a0_init2",
+          "reason": "history differs at t=14.82: ok -> ok",
+          "before_branch": true
+        }
+      ],
+      "skipped_initializations": [
+        {
+          "source_folder": "/home/chaonian/range-trajectory-20261031/single-uav-pointcloud-nav/runs/trajectory-test-v1/forest_3504_rog_trajectory33",
+          "source_request_index": 130,
+          "reason": "three prior restoration failures before any experimental branch",
+          "prior_run": "runs/recovery-labels-v1"
+        },
+        {
+          "source_folder": "/home/chaonian/range-trajectory-20261031/single-uav-pointcloud-nav/runs/trajectory-test-v1/forest_3504_ego_trajectory33",
+          "source_request_index": 187,
+          "reason": "three restoration failures before comparable branch set",
+          "partial_branches": []
+        }
+      ],
+      "same_input_arrays_verified": true,
+      "dataset_sha256": "8d3f98a6a846237e8086f2062e111db4c22127ab11575cfd42e2a765557f314f"
+    },
+    {
+      "states": 16,
+      "branches": 64,
+      "horizon_s": 6.0,
+      "actions": [
+        "repair",
+        "fixed11",
+        "trajectory11",
+        "trajectory33"
+      ],
+      "continuation": "repair immediately after the first request; branch_horizon is not mission success",
+      "restoration_failures": [],
+      "skipped_initializations": [],
+      "same_input_arrays_verified": true,
+      "dataset_sha256": "caf0fbb2473c727d1f4435bae349b52e11d3d1f50624916c7ff1ae264c7c5603"
+    }
+  ]
+}
